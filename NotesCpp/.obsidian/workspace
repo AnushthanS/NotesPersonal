@@ -1,0 +1,90 @@
+{
+  "main": {
+    "id": "eb6e2c47f874bfb3",
+    "type": "split",
+    "children": [
+      {
+        "id": "027078f42a3be4a6",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "be78211e28c001ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "be54f17e41eef15f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "123c640884366aa0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b6b711c19baa5216",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bde5e42a2365771d",
+    "type": "split",
+    "children": [
+      {
+        "id": "64a6d6fdc672a1a2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e45c68867ab3e4bc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "027078f42a3be4a6",
+  "lastOpenFiles": [
+    "Basic Structure , Variable Scope.md",
+    "Untitled.md"
+  ]
+}

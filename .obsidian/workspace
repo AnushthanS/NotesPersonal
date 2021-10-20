@@ -1,0 +1,99 @@
+{
+  "main": {
+    "id": "805896dbcba8fb4e",
+    "type": "split",
+    "children": [
+      {
+        "id": "d9b59d50df190ea2",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ab6e3c30af280f77",
+    "type": "split",
+    "children": [
+      {
+        "id": "1dd8b8c1000b189c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69c7ce3b525295e3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "6ca3a44f63d5affc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "91cab6bb9112715a",
+    "type": "split",
+    "children": [
+      {
+        "id": "99309176f544dca0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "78d9136c855aa2ba",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "d9b59d50df190ea2",
+  "lastOpenFiles": [
+    "NotesCpp/Data Types, Common formatting.md",
+    "NotesCpp/Basic Structure , Variable Scope.md",
+    "NotesJava/R5.md",
+    "NotesJava/R6.md",
+    "NotesGo/FMT guide.md",
+    "NotesGo/N4.md",
+    "NotesJava/Untitled.md",
+    "NotesJava/Regular Expression Escape Sequences.md",
+    "Regular Expression Escape Sequences.md",
+    "Untitled.md"
+  ]
+}
