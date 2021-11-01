@@ -1,6 +1,6 @@
 `#include<iostream>`
 `int main(){`
-`std::cout<<"Hello world";`
+`std::cout<<"Hello world"<<endl;`
 `return 0; }`
 This is a basic hello world C++ program.
 - We write a **header file** in <>. Think of it as a JAVA package library. Multiple header files can be included in one program.
@@ -9,5 +9,6 @@ This is a basic hello world C++ program.
 - 0 and 1 return is binary, return 0 terminates a program.
 - ***std*** is *standard name space*, much like the package in which *cout* class is present.
 - Writing `using namespace std;` before main method removes the need to use "std::" before cout.
+- ***endl*** will change the line basically.
 ****
 Global variables here cannot be declared by ***public*** or such keyword, we simply declare them outside all functions.

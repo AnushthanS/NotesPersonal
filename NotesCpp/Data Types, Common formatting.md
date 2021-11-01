@@ -10,3 +10,8 @@
 `int a=10, b=9;`
 `char c='a';`
 `cout<<"a = "<<a<<", b = "<<b<<", c = "<<c;`
+****
+### Note -
+- Boolean (bool) returns 1 or 0 here for true and false respectively.
+- Variable name can start with an underscore here.
+- Like an empty sopln(), we use ***endl*** here to make a new line.

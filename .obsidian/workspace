@@ -1,14 +1,17 @@
 {
   "main": {
-    "id": "805896dbcba8fb4e",
+    "id": "775cc416bfad1965",
     "type": "split",
     "children": [
       {
-        "id": "d9b59d50df190ea2",
+        "id": "1802dc3de566c78f",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "NotesJava/Multidimensional ArrayList.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -66,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "NotesJava/Multidimensional ArrayList.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d9b59d50df190ea2",
+  "active": "1802dc3de566c78f",
   "lastOpenFiles": [
-    "NotesCpp/Data Types, Common formatting.md",
+    "NotesJava/Multidimensional ArrayList.md",
     "NotesCpp/Basic Structure , Variable Scope.md",
+    "NotesCpp/Data Types, Common formatting.md",
     "NotesJava/R5.md",
     "NotesJava/R6.md",
     "NotesGo/FMT guide.md",
     "NotesGo/N4.md",
     "NotesJava/Untitled.md",
     "NotesJava/Regular Expression Escape Sequences.md",
-    "Regular Expression Escape Sequences.md",
-    "Untitled.md"
+    "Regular Expression Escape Sequences.md"
   ]
 }
