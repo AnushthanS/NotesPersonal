@@ -2,12 +2,14 @@
 
 ### Escape special characters using \
  . \ are both special characters
- Escape special characters using \
-
-. \ are both special characters
+ Escape **special characters and any of the quantifiers below using \ **
 
 &nbsp
 &nbsp
+### Important -- \1 will check for repetition
+Eg - (\\w+)\\1 will repeatedly check for the word group it matched.
+
+ &nbsp
 
 . - Any Character Except New Line
 
@@ -52,22 +54,23 @@ $ - End of a String
 &nbsp
 
 Quantifiers:
+***Default quantifier is 1***
 (*)  -0 or More (no bracket here)
 
 (+)  -1 or More (no bracket here)
 
 ? - 0 or One
 
-{3} - Exact Number
+{3} - Exact Number == **Check if it occurs 3 times**
 
-{3,4} - Range of Numbers (Minimum, Maximum)
+{3,5} - Range of Numbers (Minimum, Maximum) == **Minimum of 3, Maximum of 5 occurences.**
 
 &nbsp
 &nbsp
 &nbsp
 
 #### Sample Regexs ####
-
+[[Regex Examples]]
   
 
 [a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+

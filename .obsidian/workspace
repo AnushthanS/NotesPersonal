@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "775cc416bfad1965",
+    "id": "4f97191a09319aa6",
     "type": "split",
     "children": [
       {
-        "id": "1802dc3de566c78f",
+        "id": "840400f97a122a7b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "NotesJava/Multidimensional ArrayList.md",
+            "file": "Lectures/15th Dec, 2021.md",
             "mode": "preview"
           }
         }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 275,
     "collapsed": true
   },
   "right": {
@@ -69,13 +69,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NotesJava/Multidimensional ArrayList.md",
+                "file": "Lectures/15th Dec, 2021.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1802dc3de566c78f",
+  "active": "840400f97a122a7b",
   "lastOpenFiles": [
-    "NotesJava/Multidimensional ArrayList.md",
-    "NotesCpp/Basic Structure , Variable Scope.md",
+    "Lectures/15th Dec, 2021.md",
     "NotesCpp/Data Types, Common formatting.md",
-    "NotesJava/R5.md",
-    "NotesJava/R6.md",
-    "NotesGo/FMT guide.md",
-    "NotesGo/N4.md",
-    "NotesJava/Untitled.md",
-    "NotesJava/Regular Expression Escape Sequences.md",
-    "Regular Expression Escape Sequences.md"
+    "NotesCpp/Basic Structure , Variable Scope.md",
+    "NotesJava/String Performance.md",
+    "NotesDsAlgo/String & StringBuilder.md",
+    "NotesJava/R3.md",
+    "NotesJava/R1.md",
+    "NotesJava/R2.md",
+    "NotesJava/R4.md",
+    "NotesJava/Regex Examples.md"
   ]
 }

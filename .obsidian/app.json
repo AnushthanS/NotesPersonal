@@ -1,1 +1,8 @@
-{}
+{
+  "defaultViewMode": "preview",
+  "fileSortOrder": "byModifiedTime",
+  "spellcheck": false,
+  "foldHeading": true,
+  "foldIndent": true,
+  "promptDelete": false
+}
