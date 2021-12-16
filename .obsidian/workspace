@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lectures/15th Dec, 2021.md",
-            "mode": "preview"
+            "file": "Lectures/16th Dec, 2021.md",
+            "mode": "source"
           }
         }
       }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/15th Dec, 2021.md",
+                "file": "Lectures/16th Dec, 2021.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "840400f97a122a7b",
   "lastOpenFiles": [
+    "Lectures/16th Dec, 2021.md",
     "Lectures/15th Dec, 2021.md",
     "NotesCpp/Data Types, Common formatting.md",
     "NotesCpp/Basic Structure , Variable Scope.md",
@@ -97,7 +98,6 @@
     "NotesJava/R3.md",
     "NotesJava/R1.md",
     "NotesJava/R2.md",
-    "NotesJava/R4.md",
-    "NotesJava/Regex Examples.md"
+    "NotesJava/R4.md"
   ]
 }
