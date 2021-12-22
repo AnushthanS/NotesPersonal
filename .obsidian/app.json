@@ -4,5 +4,6 @@
   "spellcheck": false,
   "foldHeading": true,
   "foldIndent": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "legacyEditor": true
 }
