@@ -160,101 +160,35 @@
     <wire from="(210,110)" to="(280,110)"/>
     <wire from="(210,270)" to="(280,270)"/>
     <wire from="(630,1140)" to="(640,1140)"/>
-    <comp lib="1" loc="(500,310)" name="OR Gate">
+    <comp lib="1" loc="(270,1120)" name="OR Gate">
+      <a name="inputs" val="2"/>
+      <a name="label" val=" "/>
+    </comp>
+    <comp lib="1" loc="(370,190)" name="OR Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(50,1050)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="B"/>
+    <comp lib="6" loc="(336,134)" name="Text">
+      <a name="text" val="AB+BC"/>
     </comp>
-    <comp lib="6" loc="(391,1283)" name="Text">
-      <a name="text" val="(B+(B+C) + ~CD)"/>
-    </comp>
-    <comp lib="6" loc="(294,79)" name="Text">
-      <a name="text" val="!st"/>
-    </comp>
-    <comp lib="1" loc="(320,570)" name="AND Gate">
+    <comp lib="1" loc="(610,730)" name="AND Gate">
       <a name="inputs" val="2"/>
-      <a name="label" val="AB"/>
     </comp>
     <comp lib="0" loc="(50,1180)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="C"/>
     </comp>
-    <comp lib="1" loc="(130,1230)" name="NOT Gate"/>
-    <comp lib="0" loc="(630,1140)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="6" loc="(528,289)" name="Text">
-      <a name="text" val="AB + BC + AC"/>
-    </comp>
-    <comp lib="0" loc="(50,730)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="C"/>
-    </comp>
-    <comp lib="6" loc="(459,601)" name="Text">
-      <a name="text" val="AB~(~B+C)"/>
-    </comp>
-    <comp lib="0" loc="(60,220)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="B"/>
-    </comp>
-    <comp lib="6" loc="(594,1087)" name="Text">
-      <a name="text" val="(AB(B+((B+C)))(B+(B+C)+~CD)"/>
-    </comp>
-    <comp lib="6" loc="(336,134)" name="Text">
-      <a name="text" val="AB+BC"/>
-    </comp>
-    <comp lib="0" loc="(60,310)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="C"/>
-    </comp>
-    <comp lib="6" loc="(613,684)" name="Text">
-      <a name="text" val="AB~(~B+C) (CD + (~B+C))"/>
-    </comp>
-    <comp lib="1" loc="(210,110)" name="AND Gate">
-      <a name="inputs" val="2"/>
-      <a name="label" val="AB"/>
-    </comp>
-    <comp lib="1" loc="(380,690)" name="NOT Gate"/>
-    <comp lib="1" loc="(370,190)" name="OR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(530,310)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(50,820)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="D"/>
-    </comp>
-    <comp lib="6" loc="(228,1077)" name="Text">
-      <a name="text" val="B+(B+C)"/>
-    </comp>
-    <comp lib="1" loc="(210,270)" name="AND Gate">
-      <a name="inputs" val="2"/>
-      <a name="label" val="BC"/>
-    </comp>
-    <comp lib="1" loc="(430,1030)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="6" loc="(283,503)" name="Text">
-      <a name="text" val="2nd"/>
-    </comp>
-    <comp lib="1" loc="(320,810)" name="AND Gate">
-      <a name="inputs" val="2"/>
-      <a name="label" val="CD"/>
-    </comp>
-    <comp lib="1" loc="(270,1120)" name="OR Gate">
-      <a name="inputs" val="2"/>
-      <a name="label" val=" "/>
-    </comp>
-    <comp lib="0" loc="(60,90)" name="Pin">
+    <comp lib="0" loc="(50,950)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="A"/>
+    </comp>
+    <comp lib="1" loc="(500,310)" name="OR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(264,923)" name="Text">
+      <a name="text" val="3rd"/>
+    </comp>
+    <comp lib="6" loc="(613,684)" name="Text">
+      <a name="text" val="AB(B'+C)' (CD + (B'+C))"/>
     </comp>
     <comp lib="0" loc="(650,730)" name="Pin">
       <a name="facing" val="west"/>
@@ -264,60 +198,126 @@
     <comp lib="1" loc="(560,1140)" name="AND Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(320,690)" name="OR Gate">
-      <a name="inputs" val="2"/>
-      <a name="label" val="~B+C"/>
+    <comp lib="0" loc="(630,1140)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(490,640)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(610,730)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(210,1250)" name="AND Gate">
-      <a name="inputs" val="2"/>
-      <a name="label" val="D~C"/>
-    </comp>
-    <comp lib="0" loc="(50,650)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="B"/>
-    </comp>
-    <comp lib="0" loc="(50,550)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A"/>
-    </comp>
-    <comp lib="6" loc="(458,857)" name="Text">
-      <a name="text" val="CD+(~B+C)"/>
-    </comp>
-    <comp lib="6" loc="(264,923)" name="Text">
-      <a name="text" val="3rd"/>
-    </comp>
-    <comp lib="1" loc="(500,800)" name="OR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(170,1160)" name="OR Gate">
-      <a name="inputs" val="2"/>
-      <a name="label" val="B+C"/>
-    </comp>
-    <comp lib="1" loc="(130,670)" name="NOT Gate"/>
-    <comp lib="1" loc="(430,1230)" name="OR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(50,950)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A"/>
+    <comp lib="6" loc="(459,601)" name="Text">
+      <a name="text" val="AB(B'+C)'"/>
     </comp>
     <comp lib="0" loc="(50,1270)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="D"/>
     </comp>
-    <comp lib="1" loc="(210,390)" name="AND Gate">
+    <comp lib="0" loc="(60,220)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="B"/>
+    </comp>
+    <comp lib="1" loc="(430,1230)" name="OR Gate">
       <a name="inputs" val="2"/>
-      <a name="label" val="AC"/>
+    </comp>
+    <comp lib="1" loc="(320,570)" name="AND Gate">
+      <a name="inputs" val="2"/>
+      <a name="label" val="AB"/>
+    </comp>
+    <comp lib="0" loc="(50,1050)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="B"/>
+    </comp>
+    <comp lib="1" loc="(500,800)" name="OR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(50,550)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A"/>
+    </comp>
+    <comp lib="6" loc="(594,1087)" name="Text">
+      <a name="text" val="(AB(B+((B+C)))(B+(B+C)+C'D)"/>
     </comp>
     <comp lib="1" loc="(270,970)" name="AND Gate">
       <a name="inputs" val="2"/>
       <a name="label" val="AB"/>
+    </comp>
+    <comp lib="0" loc="(50,650)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="B"/>
+    </comp>
+    <comp lib="1" loc="(490,640)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(458,857)" name="Text">
+      <a name="text" val="CD+(B'+C)"/>
+    </comp>
+    <comp lib="1" loc="(130,670)" name="NOT Gate"/>
+    <comp lib="0" loc="(50,730)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="C"/>
+    </comp>
+    <comp lib="1" loc="(210,110)" name="AND Gate">
+      <a name="inputs" val="2"/>
+      <a name="label" val="AB"/>
+    </comp>
+    <comp lib="1" loc="(130,1230)" name="NOT Gate"/>
+    <comp lib="1" loc="(320,690)" name="OR Gate">
+      <a name="inputs" val="2"/>
+      <a name="label" val="B'+C"/>
+    </comp>
+    <comp lib="1" loc="(210,390)" name="AND Gate">
+      <a name="inputs" val="2"/>
+      <a name="label" val="AC"/>
+    </comp>
+    <comp lib="6" loc="(228,1077)" name="Text">
+      <a name="text" val="B+(B+C)"/>
+    </comp>
+    <comp lib="1" loc="(380,690)" name="NOT Gate"/>
+    <comp lib="1" loc="(320,810)" name="AND Gate">
+      <a name="inputs" val="2"/>
+      <a name="label" val="CD"/>
+    </comp>
+    <comp lib="1" loc="(210,1250)" name="AND Gate">
+      <a name="inputs" val="2"/>
+      <a name="label" val="C'D"/>
+    </comp>
+    <comp lib="1" loc="(430,1030)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="6" loc="(283,503)" name="Text">
+      <a name="text" val="2nd"/>
+    </comp>
+    <comp lib="0" loc="(50,820)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="D"/>
+    </comp>
+    <comp lib="0" loc="(60,90)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A"/>
+    </comp>
+    <comp lib="6" loc="(528,289)" name="Text">
+      <a name="text" val="AB + BC + AC"/>
+    </comp>
+    <comp lib="6" loc="(294,79)" name="Text">
+      <a name="text" val="!st"/>
+    </comp>
+    <comp lib="0" loc="(60,310)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="C"/>
+    </comp>
+    <comp lib="1" loc="(210,270)" name="AND Gate">
+      <a name="inputs" val="2"/>
+      <a name="label" val="BC"/>
+    </comp>
+    <comp lib="1" loc="(170,1160)" name="OR Gate">
+      <a name="inputs" val="2"/>
+      <a name="label" val="B+C"/>
+    </comp>
+    <comp lib="6" loc="(391,1283)" name="Text">
+      <a name="text" val="(B+(B+C) + C'D)"/>
+    </comp>
+    <comp lib="0" loc="(530,310)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
     </comp>
   </circuit>
 </project>
