@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lectures/7th Jan, 2022.md",
-            "mode": "source"
+            "file": "Lectures/5th Jan, 2022.md",
+            "mode": "preview"
           }
         }
       }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/7th Jan, 2022.md",
+                "file": "Lectures/5th Jan, 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,10 +89,10 @@
   },
   "active": "25ae1d0f7cc1bd2d",
   "lastOpenFiles": [
+    "Lectures/5th Jan, 2022.md",
     "Lectures/7th Jan, 2022.md",
     "Lectures/6th Jan, 2022.md",
     "Untitled.md",
-    "Lectures/5th Jan, 2022.md",
     "Lectures/31st Dec, 2021.md",
     "Lectures/4th Jan, 2022.md",
     "Lectures/3rd Jan, 2022.md",
