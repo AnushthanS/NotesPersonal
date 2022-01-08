@@ -4,15 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "fb120dd2f9374fd5",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Lectures/7th Jan, 2022.md",
-            "mode": "source"
+        "id": "95d6e68836cac6c6",
+        "type": "split",
+        "children": [
+          {
+            "id": "26db285e39b606b1",
+            "type": "leaf",
+            "dimension": 44.02895054282268,
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "NotesJava/NotesHarry/Notes (Harry)/AccessModifiersSS.png"
+              }
+            }
+          },
+          {
+            "id": "263bc5fdd8ee9c19",
+            "type": "leaf",
+            "dimension": 55.97104945717732,
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "NotesJava/NotesHarry/Notes (Harry)/UltimateJavaCheatSheet.pdf"
+              }
+            }
           }
-        }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -52,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "91cab6bb9112715a",
@@ -69,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/7th Jan, 2022.md",
+                "file": "NotesJava/NotesHarry/Notes (Harry)/AccessModifiersSS.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +104,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "fb120dd2f9374fd5",
+  "active": "26db285e39b606b1",
   "lastOpenFiles": [
-    "Lectures/7th Jan, 2022.md",
-    "Lectures/6th Jan, 2022.md",
-    "Lectures/5th Jan, 2022.md",
-    "Untitled.md",
-    "Lectures/31st Dec, 2021.md",
-    "Lectures/4th Jan, 2022.md",
-    "Lectures/3rd Jan, 2022.md",
-    "Lectures/1st Jan, 2022.md",
-    "Lectures/21st Dec, 2021.md",
-    "Lectures/28th Dec, 2021.md"
+    "NotesJava/NotesHarry/Notes (Harry)/AccessModifiersSS.png",
+    "NotesJava/NotesHarry/Notes (Harry)/UltimateJavaCheatSheet.pdf",
+    "NotesJava/NotesHarry/Notes (Harry)/ch15advjava.pdf",
+    "NotesJava/NotesHarry/Notes (Harry)/1920px-Java.util.Collection_hierarchy.svg.png",
+    "NotesJava/NotesHarry/Notes (Harry)/AdvancedJava2Notes.pdf",
+    "NotesJava/NotesHarry/Java The Complete Reference, 11th Edition.pdf",
+    "NotesJava/NotesHarry/Data Structures and Algorithms in Java, 6th Edition.pdf",
+    "NotesJava/NotesHarry/Problem Solving in Data Structures and Algorithms Using Java.pdf",
+    "NotesJava/NotesHarry/Java notes Codes.learning.pdf",
+    "NotesJava/Inner Classes.md"
   ]
 }
