@@ -4,33 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "95d6e68836cac6c6",
-        "type": "split",
-        "children": [
-          {
-            "id": "26db285e39b606b1",
-            "type": "leaf",
-            "dimension": 44.02895054282268,
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "NotesJava/NotesHarry/Notes (Harry)/AccessModifiersSS.png"
-              }
-            }
-          },
-          {
-            "id": "263bc5fdd8ee9c19",
-            "type": "leaf",
-            "dimension": 55.97104945717732,
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "NotesJava/NotesHarry/Notes (Harry)/UltimateJavaCheatSheet.pdf"
-              }
-            }
+        "id": "263bc5fdd8ee9c19",
+        "type": "leaf",
+        "state": {
+          "type": "pdf",
+          "state": {
+            "file": "Guide to Competitive Programming_ Learning and Improving Algorithms Through Contests ( PDFDrive ).pdf"
           }
-        ],
-        "direction": "horizontal"
+        }
       }
     ],
     "direction": "vertical"
@@ -57,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#OCW",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NotesJava/NotesHarry/Notes (Harry)/AccessModifiersSS.png",
+                "file": "Guide to Competitive Programming_ Learning and Improving Algorithms Through Contests ( PDFDrive ).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,17 +85,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "26db285e39b606b1",
+  "active": "263bc5fdd8ee9c19",
   "lastOpenFiles": [
-    "NotesJava/NotesHarry/Notes (Harry)/AccessModifiersSS.png",
-    "NotesJava/NotesHarry/Notes (Harry)/UltimateJavaCheatSheet.pdf",
-    "NotesJava/NotesHarry/Notes (Harry)/ch15advjava.pdf",
-    "NotesJava/NotesHarry/Notes (Harry)/1920px-Java.util.Collection_hierarchy.svg.png",
-    "NotesJava/NotesHarry/Notes (Harry)/AdvancedJava2Notes.pdf",
-    "NotesJava/NotesHarry/Java The Complete Reference, 11th Edition.pdf",
-    "NotesJava/NotesHarry/Data Structures and Algorithms in Java, 6th Edition.pdf",
-    "NotesJava/NotesHarry/Problem Solving in Data Structures and Algorithms Using Java.pdf",
-    "NotesJava/NotesHarry/Java notes Codes.learning.pdf",
-    "NotesJava/Inner Classes.md"
+    "Guide to Competitive Programming_ Learning and Improving Algorithms Through Contests ( PDFDrive ).pdf",
+    "gate2022.pdf",
+    "NotesJava/R4.md",
+    "NotesJava/Regex Examples.md",
+    "NotesJava/Regex Sequence.md",
+    "NotesJava/R6.md",
+    "NotesJava/StringBuilder.md",
+    "NotesJava/StringTokenizer.md",
+    "NotesJava/R7.md",
+    "NotesJava/Comparator.md"
   ]
 }
