@@ -4,12 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "263bc5fdd8ee9c19",
+        "id": "5d4eb69ef489caf5",
         "type": "leaf",
         "state": {
-          "type": "pdf",
+          "type": "markdown",
           "state": {
-            "file": "Guide to Competitive Programming_ Learning and Improving Algorithms Through Contests ( PDFDrive ).pdf"
+            "file": "Lectures/10th Jan, 2022.md",
+            "mode": "source"
           }
         }
       }
@@ -38,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "#ocw",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -51,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "91cab6bb9112715a",
@@ -67,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Guide to Competitive Programming_ Learning and Improving Algorithms Through Contests ( PDFDrive ).pdf",
+                "file": "Lectures/10th Jan, 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "263bc5fdd8ee9c19",
+  "active": "5d4eb69ef489caf5",
   "lastOpenFiles": [
-    "Guide to Competitive Programming_ Learning and Improving Algorithms Through Contests ( PDFDrive ).pdf",
-    "gate2022.pdf",
-    "NotesJava/R4.md",
-    "NotesJava/Regex Examples.md",
-    "NotesJava/Regex Sequence.md",
-    "NotesJava/R6.md",
-    "NotesJava/StringBuilder.md",
-    "NotesJava/StringTokenizer.md",
-    "NotesJava/R7.md",
-    "NotesJava/Comparator.md"
+    "Lectures/10th Jan, 2022.md",
+    "Lectures/7th Jan, 2022.md",
+    "Lectures/6th Jan, 2022.md",
+    "Lectures/5th Jan, 2022.md",
+    "NotesJava/NotesHarry/Notes (Harry)/Ch13Multithreading --69,70,71,72,73,74,75.pdf",
+    "NotesJava/NotesHarry/Notes (Harry)/Ch12PracticeSet .pdf",
+    "NotesJava/NotesHarry/Notes (Harry)/ch12 Packages:Access Modifiers--62,63,64,65,66.pdf",
+    "NotesJava/NotesHarry/Notes (Harry)/Chapter11PracticeSet.pdf",
+    "NotesJava/NotesHarry/Notes (Harry)/JavaChapter11AbstractClasses -- 53,54,55,56.pdf",
+    "NotesJava/NotesHarry/Notes (Harry)/JavaChapter10PracticeSet.pdf"
   ]
 }
