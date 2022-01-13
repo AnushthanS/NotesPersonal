@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "5d4eb69ef489caf5",
+        "id": "96c19cd8cce92bea",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lectures/10th Jan, 2022.md",
+            "file": "Lectures/13th Jan, 2022.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/10th Jan, 2022.md",
+                "file": "Lectures/13th Jan, 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,8 +87,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5d4eb69ef489caf5",
+  "active": "96c19cd8cce92bea",
   "lastOpenFiles": [
+    "Lectures/13th Jan, 2022.md",
+    "Lectures/12th Jan, 2022.md",
     "Lectures/10th Jan, 2022.md",
     "Lectures/7th Jan, 2022.md",
     "Lectures/6th Jan, 2022.md",
@@ -96,8 +98,6 @@
     "NotesJava/NotesHarry/Notes (Harry)/Ch13Multithreading --69,70,71,72,73,74,75.pdf",
     "NotesJava/NotesHarry/Notes (Harry)/Ch12PracticeSet .pdf",
     "NotesJava/NotesHarry/Notes (Harry)/ch12 Packages:Access Modifiers--62,63,64,65,66.pdf",
-    "NotesJava/NotesHarry/Notes (Harry)/Chapter11PracticeSet.pdf",
-    "NotesJava/NotesHarry/Notes (Harry)/JavaChapter11AbstractClasses -- 53,54,55,56.pdf",
-    "NotesJava/NotesHarry/Notes (Harry)/JavaChapter10PracticeSet.pdf"
+    "NotesJava/NotesHarry/Notes (Harry)/Chapter11PracticeSet.pdf"
   ]
 }
