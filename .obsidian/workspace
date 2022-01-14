@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "NotesJava/NotesHarry/Unordered Map.md",
-            "mode": "source"
+            "file": "NotesJava/2 substring question.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#ocw",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -52,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "91cab6bb9112715a",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NotesJava/NotesHarry/Unordered Map.md",
+                "file": "NotesJava/2 substring question.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +89,15 @@
   },
   "active": "96c19cd8cce92bea",
   "lastOpenFiles": [
-    "NotesJava/NotesHarry/Unordered Map.md",
-    "NotesJava/Regex Sequence.md",
+    "NotesJava/2 substring question.md",
     "Lectures/13th Jan, 2022.md",
-    "Lectures/12th Jan, 2022.md",
-    "Lectures/10th Jan, 2022.md",
-    "Lectures/7th Jan, 2022.md",
-    "Lectures/6th Jan, 2022.md",
-    "Lectures/5th Jan, 2022.md",
-    "NotesJava/NotesHarry/Notes (Harry)/Ch13Multithreading --69,70,71,72,73,74,75.pdf",
-    "NotesJava/NotesHarry/Notes (Harry)/Ch12PracticeSet .pdf"
+    "NotesJava/R5.md",
+    "NotesJava/R7.md",
+    "NotesJava/R6.md",
+    "NotesJava/StringBuilder.md",
+    "NotesJava/R4.md",
+    "NotesJava/R2.md",
+    "NotesJava/R1.md",
+    "NotesJava/R3.md"
   ]
 }
