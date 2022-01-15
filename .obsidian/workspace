@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "NotesJava/2 substring question.md",
-            "mode": "preview"
+            "file": "Lectures/15th Jan, 2022.md",
+            "mode": "source"
           }
         }
       }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NotesJava/2 substring question.md",
+                "file": "Lectures/15th Jan, 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "96c19cd8cce92bea",
   "lastOpenFiles": [
+    "Lectures/15th Jan, 2022.md",
     "NotesJava/2 substring question.md",
     "Lectures/13th Jan, 2022.md",
     "NotesJava/R5.md",
@@ -97,7 +98,6 @@
     "NotesJava/StringBuilder.md",
     "NotesJava/R4.md",
     "NotesJava/R2.md",
-    "NotesJava/R1.md",
-    "NotesJava/R3.md"
+    "NotesJava/R1.md"
   ]
 }
