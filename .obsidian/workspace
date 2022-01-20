@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "855faef726bc1632",
+        "id": "cf04bd11747e37a0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lectures/17th Jan, 2022.md",
-            "mode": "preview"
+            "file": "Lectures/20th Jan, 2022.md",
+            "mode": "source"
           }
         }
       }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/17th Jan, 2022.md",
+                "file": "Lectures/20th Jan, 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -79,25 +79,42 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "21053ac3dc93affd",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "168311754a67afd7",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "855faef726bc1632",
+  "active": "cf04bd11747e37a0",
   "lastOpenFiles": [
-    "Lectures/17th Jan, 2022.md",
+    "Lectures/20th Jan, 2022.md",
+    "Lectures/19th Jan, 2022.md",
     "NotesC/R2.md",
-    "NotesC/String to Token.md",
-    "NotesC/R1.md",
-    "NotesC/Basic Structure.md",
-    "NotesC/Comma.md",
-    "Lectures/15th Jan, 2022.md",
-    "NotesJava/StringTokenizer.md",
-    "NotesC/CFP till now..pdf",
-    "NotesC/CFP_15thapril.pdf"
+    "Lectures/17th Jan, 2022.md",
+    "Lectures/13th Jan, 2022.md",
+    "NotesShell/R2.md",
+    "NotesShell/R1.md",
+    "Lectures/7th Jan, 2022.md",
+    "Lectures/12th Jan, 2022.md",
+    "Lectures/5th Jan, 2022.md"
   ]
 }
