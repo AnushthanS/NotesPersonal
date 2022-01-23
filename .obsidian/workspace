@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "NotesShell/R2.md",
-            "mode": "source"
+            "file": "Lectures/24th Jan, 2022.md",
+            "mode": "preview"
           }
         }
       }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NotesShell/R2.md",
+                "file": "Lectures/24th Jan, 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +106,15 @@
   },
   "active": "dc3d7c2e3a7b05cf",
   "lastOpenFiles": [
-    "NotesShell/R2.md",
+    "Lectures/24th Jan, 2022.md",
     "Lectures/21st Jan, 2022.md",
-    "Lectures/18th Jan, 2022.md",
     "Lectures/19th Jan, 2022.md",
+    "NotesShell/R2.md",
+    "Lectures/18th Jan, 2022.md",
     "Lectures/20th Jan, 2022.md",
     "temp.md",
     "Lectures/31st Dec, 2021.md",
     "Lectures/17th Dec, 2021.md",
-    "Lectures/21st Dec, 2021.md",
-    "Lectures/28th Dec, 2021.md"
+    "Lectures/21st Dec, 2021.md"
   ]
 }

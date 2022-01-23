@@ -94,33 +94,12 @@
     <comp lib="0" loc="(110,50)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="D1"/>
+      <a name="label" val="I1"/>
     </comp>
-    <comp lib="1" loc="(550,310)" name="OR Gate">
-      <a name="size" val="70"/>
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="0" loc="(640,310)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="A1"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(640,140)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="A0"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(370,50)" name="Pin">
+    <comp lib="0" loc="(420,50)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="D6"/>
-    </comp>
-    <comp lib="0" loc="(210,50)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="D3"/>
+      <a name="label" val="I7"/>
     </comp>
     <comp lib="0" loc="(640,470)" name="Pin">
       <a name="facing" val="west"/>
@@ -128,33 +107,54 @@
       <a name="label" val="A2"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(420,50)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="D7"/>
-    </comp>
-    <comp lib="1" loc="(550,470)" name="OR Gate">
-      <a name="size" val="70"/>
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="0" loc="(260,50)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="D4"/>
-    </comp>
     <comp lib="1" loc="(550,140)" name="OR Gate">
       <a name="size" val="70"/>
       <a name="inputs" val="4"/>
     </comp>
+    <comp lib="0" loc="(210,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="I3"/>
+    </comp>
     <comp lib="0" loc="(320,50)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="D5"/>
+      <a name="label" val="I5"/>
+    </comp>
+    <comp lib="0" loc="(640,310)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="A1"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(260,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="I4"/>
     </comp>
     <comp lib="0" loc="(160,50)" name="Pin">
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="D2"/>
+      <a name="label" val="I2"/>
+    </comp>
+    <comp lib="1" loc="(550,310)" name="OR Gate">
+      <a name="size" val="70"/>
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="0" loc="(370,50)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="I6"/>
+    </comp>
+    <comp lib="0" loc="(640,140)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="A0"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(550,470)" name="OR Gate">
+      <a name="size" val="70"/>
+      <a name="inputs" val="4"/>
     </comp>
   </circuit>
 </project>
