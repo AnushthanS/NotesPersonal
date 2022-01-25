@@ -4,24 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "dc3d7c2e3a7b05cf",
+        "id": "2b3f02014beb6f69",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "NotesJava/R1.md",
+            "file": "Syllabus for mid sem.md",
             "mode": "preview"
-          }
-        }
-      },
-      {
-        "id": "8aec1effe6d45073",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Lectures/24th Jan, 2022.md",
-            "mode": "source"
           }
         }
       }
@@ -80,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/24th Jan, 2022.md",
+                "file": "Syllabus for mid sem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,17 +104,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8aec1effe6d45073",
+  "active": "2b3f02014beb6f69",
   "lastOpenFiles": [
-    "Lectures/24th Jan, 2022.md",
-    "NotesJava/R1.md",
+    "Syllabus for mid sem.md",
+    "Lectures/25th Jan, 2022.md",
+    "Lectures/20th Jan, 2022.md",
+    "Lectures/11th Jan, 2022.md",
     "Lectures/21st Jan, 2022.md",
-    "Lectures/22nd Dec, 2021.md",
-    "Lectures/27th Dec, 2021.md",
-    "Lectures/23rd Dec, 2021.md",
-    "Lectures/19th Jan, 2022.md",
-    "NotesShell/R2.md",
+    "Lectures/24th Jan, 2022.md",
     "Lectures/18th Jan, 2022.md",
-    "Lectures/20th Jan, 2022.md"
+    "NotesJava/R1.md",
+    "Lectures/22nd Dec, 2021.md",
+    "Lectures/27th Dec, 2021.md"
   ]
 }
