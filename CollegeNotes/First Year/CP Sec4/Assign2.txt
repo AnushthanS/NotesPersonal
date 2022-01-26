@@ -321,6 +321,28 @@ prints the maximum among them. For example, for input {6, 7, 2, 29, 17, 5, 5,
 integer read is not −1 and a single integer is a sequence of length 1.
 
 
+Answer:
+#include <stdio.h>
+#include <limits.h>
+int main(){
+    int n, max= INT_MIN;
+    scanf("%d", &n);
+    int length=1;
+
+    while(n != -1){
+        int temp1=0;
+        scanf("%d", &temp1);
+
+        if(temp1 >= n) length++;
+        else{
+            max = length > max ? length:max;
+            length=1;
+        }
+        n=temp1;
+    }
+    printf("Answer: %d", max);
+    return 0;
+}
 
 
 
@@ -333,8 +355,10 @@ Answer:
 
 #include <stdio.h>
 int main(){
-  for(int i=5; i <= 50; i+=5){
+  int i=5;
+  while(i <= 50)){
       printf("%d ", i);
+      i+=5;
   }
   return 0;
 }
@@ -359,7 +383,8 @@ char a='a';
 while(a > 'a' && a <= 'z')
 a++;
 
-Answer: The loop won't run even once since one of the conditions "a > 'a'" is false. Expression uses "&&" which will give true only when both expressions are true.
+Answer: The loop won't run even once since one of the conditions "a > 'a'" is false.
+ Expression uses "&&" which will give true only when both expressions are true.
 
 
 
@@ -423,4 +448,27 @@ third input (0) destroys the partial match, so preflen reduces to zero.
 
 
 
-Answer: 
+Answer:
+
+#include <stdio.h>
+int main(){
+    int arr[100];
+    int n=0, i=0;
+    while (1){
+        scanf("%d", &n);
+        if(n ==0 || n ==1){
+            arr[i] = n;
+            i++;
+        } else {
+            break;
+        }
+    }
+
+    int sizeArr = i;
+    int ans =0;
+    for(int j=0; j < sizeArr-3; j++){
+        if(arr[j] == 1 && arr[j+1] == 0 && arr[j+2] == 1 && arr[j+3] == 0) ans++;
+    }
+    printf("%d", ans);
+    return 0;
+}

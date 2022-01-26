@@ -1,8 +1,15 @@
 #include <stdio.h>
-int main() {
-  int k;
-  int num = 30;
-  k = num > 5 ? (num <= 10 ? 100:200):500;
-  printf ( "k = %d\n", k );
-return 0;
+int main(){
+    int arr[100];
+    int n=0, i=0;
+    while(1){
+        if(n==0 || n==1){
+            arr[i]=n;
+            i++;
+        } else break;
+    }
+    int arrSize = i;
+    int preflen[arrSize];
+    
+    return 0;
 }

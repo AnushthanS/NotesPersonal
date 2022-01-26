@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Syllabus for mid sem.md",
+            "file": "Lectures/December/22nd Dec, 2021.md",
             "mode": "preview"
           }
         }
@@ -39,16 +39,17 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "#OCW",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTime"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Syllabus for mid sem.md",
+                "file": "Lectures/December/22nd Dec, 2021.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +107,15 @@
   },
   "active": "2b3f02014beb6f69",
   "lastOpenFiles": [
+    "Lectures/December/22nd Dec, 2021.md",
+    "Lectures/December/20th Dec, 2021.md",
+    "Lectures/December/16th Dec, 2021.md",
+    "Lectures/15th Dec, 2021.md",
     "Syllabus for mid sem.md",
     "Lectures/25th Jan, 2022.md",
     "Lectures/20th Jan, 2022.md",
     "Lectures/11th Jan, 2022.md",
     "Lectures/21st Jan, 2022.md",
-    "Lectures/24th Jan, 2022.md",
-    "Lectures/18th Jan, 2022.md",
-    "NotesJava/R1.md",
-    "Lectures/22nd Dec, 2021.md",
-    "Lectures/27th Dec, 2021.md"
+    "Lectures/24th Jan, 2022.md"
   ]
 }
