@@ -36,10 +36,6 @@
 2. Boolean algebra, canonical forms
 3. Gate level minimization and KMaps
 
-> Unit – 1: Mathematical Logic - Propositions, Predicates and Quantifiers, Logical Statements, Equivalence of Statements, Converse, Contrapositive and Inverse Statements, Tautology and Contradiction, Mathematical Inference, Various Proof Strategies, Disprove, Normal Forms.
-
-> Unit – 2: Sets - Basic Set Operations, Functions, Cardinality, Countable and Uncountable Sets, Sequence & Summations; Induction - Principle of Induction, Strong Induction.
-
 ****
 
 # DSMA syllabus: Exam on 3rd Feb
@@ -47,6 +43,10 @@
 1. Propositional reasoning
 2. Proofing techniques
 3. Set theory and functions
+
+> Unit – 1: Mathematical Logic - Propositions, Predicates and Quantifiers, Logical Statements, Equivalence of Statements, Converse, Contrapositive and Inverse Statements, Tautology and Contradiction, Mathematical Inference, Various Proof Strategies, Disprove, Normal Forms. (pdf pg 27 - 128)
+
+> Unit – 2: Sets - Basic Set Operations, Functions, Cardinality, Countable and Uncountable Sets, Sequence & Summations; Induction - Principle of Induction, Strong Induction. (pdf pg 138 - 186)
 
 **** 
 

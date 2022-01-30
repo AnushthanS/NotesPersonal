@@ -20,6 +20,7 @@ Answer: (a)
 
 
 
+
 2) Consider the following C program
 
 main()
@@ -93,6 +94,7 @@ d) Program gives no output as it is erroneous
 
 
 Answer: (b)
+
 
 
 
@@ -193,7 +195,7 @@ return 0;
 What integer values are printed at the end of the above program.
 
 
-Answer: The integers get swapped
+Answer:
 Supply two integers: -10 20
 20 -10
 
@@ -276,7 +278,8 @@ scanf("%c do not %c", &a, &b);
 printf("%c do not %c", a, b);
 
 
-Answer: I do not k
+Answer:
+I do not k
 
 
 
@@ -294,7 +297,6 @@ ___________________________
 printf ("The most significant digit is %d", n ) ;
 return 0;
 }
-
 
 
 Answer:
@@ -322,6 +324,7 @@ integer read is not −1 and a single integer is a sequence of length 1.
 
 
 Answer:
+
 #include <stdio.h>
 #include <limits.h>
 int main(){
@@ -409,6 +412,7 @@ Answer: (c)
 
 
 
+
 19) What values does the following code print?
 
 int k;
@@ -450,6 +454,45 @@ third input (0) destroys the partial match, so preflen reduces to zero.
 
 Answer:
 
+//Method 1
+
+#include <stdio.h>
+int main(){
+    int n, ans=0, preflen=0;
+    while(1){
+        scanf("%d", &n);
+        if(n==1){
+            switch(preflen){
+                case 0: preflen =1;
+                    break;
+                case 1: break;
+                case 2: preflen =3;
+                    break;
+                case 3: preflen =1;
+                    break;
+            }
+        }   else if(n==0){
+            switch(preflen){
+            case 0: break;
+            case 1: preflen =2;
+                break;
+            case 2: preflen =0;
+                break;
+            case 3: ans++;
+                preflen =2;
+                break;
+            }
+        }   else break;
+    }
+    printf("%d", ans);
+    return 0;
+}
+
+
+
+//Method 2
+//Simple method without preflen
+
 #include <stdio.h>
 int main(){
     int arr[100];
@@ -459,9 +502,7 @@ int main(){
         if(n ==0 || n ==1){
             arr[i] = n;
             i++;
-        } else {
-            break;
-        }
+        } else break;
     }
 
     int sizeArr = i;

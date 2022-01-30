@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "2b3f02014beb6f69",
+        "id": "860068e0ae88c016",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lectures/December/22nd Dec, 2021.md",
+            "file": "Syllabus for mid sem.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#OCW",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/December/22nd Dec, 2021.md",
+                "file": "Syllabus for mid sem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,17 +104,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2b3f02014beb6f69",
+  "active": "860068e0ae88c016",
   "lastOpenFiles": [
-    "Lectures/December/22nd Dec, 2021.md",
-    "Lectures/December/20th Dec, 2021.md",
-    "Lectures/December/16th Dec, 2021.md",
-    "Lectures/15th Dec, 2021.md",
     "Syllabus for mid sem.md",
-    "Lectures/25th Jan, 2022.md",
-    "Lectures/20th Jan, 2022.md",
-    "Lectures/11th Jan, 2022.md",
-    "Lectures/21st Jan, 2022.md",
-    "Lectures/24th Jan, 2022.md"
+    "Lectures/December/30th Dec, 2021.md",
+    "Lectures/December/29th Dec, 2021.md",
+    "Lectures/January/3rd Jan, 2022.md",
+    "Lectures/January/6th Jan, 2022.md",
+    "Lectures/January/5th Jan, 2022.md",
+    "Lectures/January/12th Jan, 2022.md",
+    "Lectures/January/10th Jan, 2022.md",
+    "Lectures/January/28th Jan, 2022.md",
+    "Lectures/January/27th Jan, 2022.md"
   ]
 }
