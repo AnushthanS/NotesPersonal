@@ -4,33 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "462700427abef9a9",
-        "type": "split",
-        "children": [
-          {
-            "id": "92978bcd9f12b026",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "To Do.md",
-                "mode": "preview"
-              }
-            }
-          },
-          {
-            "id": "590dda421a3dfa83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Syllabus for mid sem.md",
-                "mode": "preview"
-              }
-            }
+        "id": "b280fed01e9424b0",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Lectures/January/11th Jan, 2022.md",
+            "mode": "preview"
           }
-        ],
-        "direction": "horizontal"
+        }
       }
     ],
     "direction": "vertical"
@@ -57,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "size",
+                "query": "#FHVE",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,12 +48,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "91cab6bb9112715a",
@@ -87,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To Do.md",
+                "file": "Lectures/January/11th Jan, 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,17 +112,17 @@
     "width": 447.5,
     "collapsed": true
   },
-  "active": "92978bcd9f12b026",
+  "active": "b280fed01e9424b0",
   "lastOpenFiles": [
-    "To Do.md",
-    "Syllabus for mid sem.md",
-    "Lectures/December/30th Dec, 2021.md",
-    "Lectures/January/27th Jan, 2022.md",
-    "Lectures/January/24th Jan, 2022.md",
+    "Lectures/January/11th Jan, 2022.md",
+    "Lectures/January/18th Jan, 2022.md",
+    "Lectures/January/25th Jan, 2022.md",
+    "Lectures/January/4th Jan, 2022.md",
+    "Lectures/January/3rd Jan, 2022.md",
+    "Lectures/December/28th Dec, 2021.md",
+    "Lectures/December/21st Dec, 2021.md",
     "Lectures/January/21st Jan, 2022.md",
-    "Lectures/January/20th Jan, 2022.md",
-    "Lectures/January/17th Jan, 2022.md",
-    "Lectures/January/13th Jan, 2022.md",
-    "Lectures/January/10th Jan, 2022.md"
+    "To Do.md",
+    "Lectures/January/20th Jan, 2022.md"
   ]
 }

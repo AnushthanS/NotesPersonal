@@ -1,8 +1,6 @@
 
 #todo
-
-- [x] Proofing techniques
-- [ ] Strong induction pg308
-- [x] one to one correspondence to prove set cardinality
-- [x] Proofs related to set theory in general
-- [ ] Quick revision of everything
+- [x] Natural factors which affect climate
+- [x] Monsoon characteristics in India
+- [x] El Nino/ La Nina
+- [x] Last few sources of aerosol after oceanic
