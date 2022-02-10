@@ -9,7 +9,18 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lectures/January/11th Jan, 2022.md",
+            "file": "Lectures/February/10th Feb, 2022.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "6a2045cc61a2b61c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Lectures/February/9th Feb, 2022.md",
             "mode": "preview"
           }
         }
@@ -39,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#FHVE",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,12 +59,12 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "91cab6bb9112715a",
@@ -69,7 +80,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/January/11th Jan, 2022.md",
+                "file": "Lectures/February/10th Feb, 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +125,15 @@
   },
   "active": "b280fed01e9424b0",
   "lastOpenFiles": [
+    "Lectures/February/10th Feb, 2022.md",
+    "Lectures/February/9th Feb, 2022.md",
+    "Lectures/February/7th Feb, 2022.md",
+    "Lectures/February/8th Feb, 2022.md",
+    "Lectures/January/27th Jan, 2022.md",
     "Lectures/January/11th Jan, 2022.md",
     "Lectures/January/18th Jan, 2022.md",
     "Lectures/January/25th Jan, 2022.md",
     "Lectures/January/4th Jan, 2022.md",
-    "Lectures/January/3rd Jan, 2022.md",
-    "Lectures/December/28th Dec, 2021.md",
-    "Lectures/December/21st Dec, 2021.md",
-    "Lectures/January/21st Jan, 2022.md",
-    "To Do.md",
-    "Lectures/January/20th Jan, 2022.md"
+    "Lectures/January/3rd Jan, 2022.md"
   ]
 }
