@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "95cd335a4d009018",
+        "id": "889f530ca229c91e",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Lectures/February/15th Feb, 2022.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -49,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "91cab6bb9112715a",
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Lectures/February/15th Feb, 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,17 +112,17 @@
     "width": 447.5,
     "collapsed": true
   },
-  "active": "95cd335a4d009018",
+  "active": "889f530ca229c91e",
   "lastOpenFiles": [
+    "Lectures/February/15th Feb, 2022.md",
+    "Lectures/February/11th Feb, 2022.md",
+    "Lectures/February/10th Feb, 2022.md",
     "Lectures/February/7th Feb, 2022.md",
     "Lectures/February/14th Feb, 2022.md",
     "Results.md",
     "To Do.md",
     "Syllabus for mid sem.md",
     "NotesJava/R1.md",
-    "NotesJava/R4.md",
-    "NotesJava/R3.md",
-    "NotesJava/R2.md",
-    "NotesJava/2 substring question.md"
+    "NotesJava/R4.md"
   ]
 }
