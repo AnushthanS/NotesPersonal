@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lectures/February/15th Feb, 2022.md",
+            "file": "Lectures/February/16th Feb, 2022.md",
             "mode": "preview"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/February/15th Feb, 2022.md",
+                "file": "Lectures/February/16th Feb, 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +114,15 @@
   },
   "active": "889f530ca229c91e",
   "lastOpenFiles": [
+    "Lectures/February/16th Feb, 2022.md",
     "Lectures/February/15th Feb, 2022.md",
+    "Lectures/February/14th Feb, 2022.md",
+    "Results.md",
+    "NotesC/R2.md",
     "Lectures/February/11th Feb, 2022.md",
     "Lectures/February/10th Feb, 2022.md",
     "Lectures/February/7th Feb, 2022.md",
-    "Lectures/February/14th Feb, 2022.md",
-    "Results.md",
     "To Do.md",
-    "Syllabus for mid sem.md",
-    "NotesJava/R1.md",
-    "NotesJava/R4.md"
+    "Syllabus for mid sem.md"
   ]
 }
