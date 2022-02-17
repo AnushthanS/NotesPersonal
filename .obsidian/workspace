@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "889f530ca229c91e",
+        "id": "64e0d95f3ffc4122",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lectures/February/16th Feb, 2022.md",
+            "file": "Results.md",
             "mode": "preview"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/February/16th Feb, 2022.md",
+                "file": "Results.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,24 +105,24 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
     "width": 447.5,
     "collapsed": true
   },
-  "active": "889f530ca229c91e",
+  "active": "64e0d95f3ffc4122",
   "lastOpenFiles": [
-    "Lectures/February/16th Feb, 2022.md",
-    "Lectures/February/15th Feb, 2022.md",
-    "Lectures/February/14th Feb, 2022.md",
     "Results.md",
-    "NotesC/R2.md",
+    "Lectures/February/17th Feb, 2022.md",
+    "Lectures/February/16th Feb, 2022.md",
     "Lectures/February/11th Feb, 2022.md",
     "Lectures/February/10th Feb, 2022.md",
+    "Lectures/February/15th Feb, 2022.md",
+    "Lectures/February/14th Feb, 2022.md",
+    "NotesC/R2.md",
     "Lectures/February/7th Feb, 2022.md",
-    "To Do.md",
-    "Syllabus for mid sem.md"
+    "To Do.md"
   ]
 }
