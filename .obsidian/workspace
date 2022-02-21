@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "64e0d95f3ffc4122",
+        "id": "86b142668c6d4973",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lectures/February/18th Feb, 2022.md",
+            "file": "Lectures/February/21st Feb, 2022.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#CP",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -52,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "91cab6bb9112715a",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/February/18th Feb, 2022.md",
+                "file": "Lectures/February/21st Feb, 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,17 +111,17 @@
     "width": 447.5,
     "collapsed": true
   },
-  "active": "64e0d95f3ffc4122",
+  "active": "86b142668c6d4973",
   "lastOpenFiles": [
-    "Lectures/February/18th Feb, 2022.md",
-    "Lectures/February/17th Feb, 2022.md",
-    "Lectures/February/11th Feb, 2022.md",
-    "Results.md",
-    "Lectures/February/16th Feb, 2022.md",
-    "Lectures/February/10th Feb, 2022.md",
-    "Lectures/February/15th Feb, 2022.md",
-    "Lectures/February/14th Feb, 2022.md",
+    "Lectures/February/21st Feb, 2022.md",
     "NotesC/R2.md",
-    "Lectures/February/7th Feb, 2022.md"
+    "NotesC/Basic Structure.md",
+    "NotesC/R1.md",
+    "NotesC/Comma.md",
+    "NotesC/String to Token.md",
+    "NotesC/Dynamic Memory Allocation.md",
+    "NotesC/Arrays.md",
+    "NotesC/Strings.md",
+    "Lectures/January/21st Jan, 2022.md"
   ]
 }
