@@ -4,24 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "86b142668c6d4973",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Lectures/February/16th Feb, 2022.md",
-            "mode": "preview"
-          }
-        }
-      },
-      {
         "id": "4cb7d71db2d62bab",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lectures/February/22nd Feb, 2022.md",
-            "mode": "source"
+            "file": "Lectures/February/21st Feb, 2022.md",
+            "mode": "preview"
           }
         }
       }
@@ -50,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#DSMA",
+                "query": "tag:#OCW",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -59,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -80,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/February/22nd Feb, 2022.md",
+                "file": "Lectures/February/21st Feb, 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,12 +115,12 @@
   },
   "active": "4cb7d71db2d62bab",
   "lastOpenFiles": [
+    "Lectures/February/21st Feb, 2022.md",
     "Lectures/February/22nd Feb, 2022.md",
     "Lectures/February/16th Feb, 2022.md",
     "Lectures/February/17th Feb, 2022.md",
     "Lectures/February/15th Feb, 2022.md",
     "Lectures/February/14th Feb, 2022.md",
-    "Lectures/February/21st Feb, 2022.md",
     "NotesC/R2.md",
     "NotesC/Basic Structure.md",
     "NotesC/R1.md",
