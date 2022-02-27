@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lectures/February/23rd Feb, 2022.md",
-            "mode": "source"
+            "file": "Lectures/February/25th Feb, 2022.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#OCW",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/February/23rd Feb, 2022.md",
+                "file": "Lectures/February/25th Feb, 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +114,15 @@
   },
   "active": "4cb7d71db2d62bab",
   "lastOpenFiles": [
+    "Lectures/February/25th Feb, 2022.md",
+    "NotesC/Dynamic Memory Allocation.md",
+    "Lectures/February/24th Feb, 2022.md",
     "Lectures/February/23rd Feb, 2022.md",
     "Lectures/February/22nd Feb, 2022.md",
     "To Do.md",
     "Lectures/February/21st Feb, 2022.md",
     "Lectures/February/16th Feb, 2022.md",
     "Lectures/February/17th Feb, 2022.md",
-    "Lectures/February/15th Feb, 2022.md",
-    "Lectures/February/14th Feb, 2022.md",
-    "NotesC/R2.md",
-    "NotesC/Basic Structure.md"
+    "Lectures/February/15th Feb, 2022.md"
   ]
 }
