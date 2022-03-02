@@ -8,3 +8,4 @@
 - Counter
 
 ### 2 PM - #DLD lab
+- 4 bit up/down asynchronous/synchronous counters using JK flip flops
