@@ -77,7 +77,7 @@
 - ### Scheduled quiz on 5th March: covers unit 1,2,3 and 4:
 > Unit - 3: Counting techniques - Sum and Product Rule, Inclusion and Exclusion Principles, Pigeonhole
 Principle, Generalized Pigeonhole Principle, Permutation, Combination, Recurrence Relation, Solving Homogeneous
-and Non Homogeneous Recurrence Relations, Binomial Coefficients and Identities.
+and Non Homogeneous Recurrence Relations, Binomial Coefficients and Identities.(pdf pg 364-400 + pg 475-496)
 > Unit - 4: Relations - Relations, Equivalence and Partial Order Relations, Partition and Equivalence
 Classes, Closure of Relation, Representation and Operation on Relations, Posets, Totally Ordered Sets, Well-Ordered
 Sets, Least and Maximum Elements, Least Upper Bound, Greatest Lower Bound, Lattice(pdf pg 545-603)
