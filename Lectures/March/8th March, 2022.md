@@ -7,6 +7,8 @@
 ### 11 AM - #DLD 
 - Derivation of flip flops from D
 - Finite state machines(FSMs): Mealy and Moore Machine
+- Mealy machine: output = f(input, present state)
+- Moore machine: output = f(present state)
 
 ### 12 PM - #DSMA 
 - Start of Linear Algebra

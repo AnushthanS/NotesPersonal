@@ -4,7 +4,7 @@
 - Focus on 8086 microprocessor
 - 8086 operates in 2 modes: maximum and minimum
 - 8086 has a 20 line address bus == 2^20 bytes of memory == 1 MB
-- Microprocessor memory is divided into segment of different sizes, generally 4 types:
+- Microprocessor memory is divided into segment of different sizes, generally 4 types of registers of 16 bits each:
 	- CS - code segment
 	- DS - data segment
 	- SS - stack segment
