@@ -52,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "91cab6bb9112715a",
@@ -116,13 +115,13 @@
   "lastOpenFiles": [
     "Material for fhve.md",
     "Lectures/March/11th March, 2022.md",
+    "Syllabus for first sem.md",
     "Lectures/March/10th March, 2022.md",
     "Lectures/March/9th March, 2022.md",
     "Lectures/March/8th March, 2022.md",
     "Lectures/March/7th March, 2022.md",
     "Lectures/March/3rd March, 2022.md",
     "Lectures/March/2nd March, 2022.md",
-    "Lectures/March/4th March, 2022.md",
-    "Lectures/February/16th Feb, 2022.md"
+    "Lectures/March/4th March, 2022.md"
   ]
 }
