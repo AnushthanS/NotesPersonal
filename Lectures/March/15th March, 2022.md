@@ -18,4 +18,8 @@
 	- cw or cv will be in the subspace
 
 - Essentially space is similar to set, subspace is similar to subset
+- From pdf pg 124
+
+### 3 PM - #DSMA 
+
 

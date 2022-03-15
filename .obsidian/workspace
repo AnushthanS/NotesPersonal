@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lectures/March/15th March, 2022.md",
-            "mode": "source"
+            "file": "Material for fhve.md",
+            "mode": "preview"
           }
         }
       }
@@ -48,8 +48,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/March/15th March, 2022.md",
+                "file": "Material for fhve.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,15 +114,15 @@
   },
   "active": "4cb7d71db2d62bab",
   "lastOpenFiles": [
+    "Material for fhve.md",
+    "temp.md",
     "Lectures/March/15th March, 2022.md",
     "Lectures/March/9th March, 2022.md",
-    "Material for fhve.md",
     "NotesC/String to Token.md",
     "NotesC/Dynamic Memory Allocation.md",
     "Lectures/March/14th March, 2022.md",
     "NotesC/Dangling Pointer & Memory Leak.md",
     "Lectures/March/10th March, 2022.md",
-    "Lectures/March/11th March, 2022.md",
-    "Syllabus for first sem.md"
+    "Lectures/March/11th March, 2022.md"
   ]
 }
