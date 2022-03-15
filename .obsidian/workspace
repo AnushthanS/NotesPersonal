@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Material for fhve.md",
-            "mode": "preview"
+            "file": "Lectures/March/15th March, 2022.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#OCW",
+                "query": "tag:#DLD",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,11 +48,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "91cab6bb9112715a",
@@ -68,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Material for fhve.md",
+                "file": "Lectures/March/15th March, 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,15 +115,15 @@
   },
   "active": "4cb7d71db2d62bab",
   "lastOpenFiles": [
-    "Material for fhve.md",
-    "Lectures/March/11th March, 2022.md",
-    "Syllabus for first sem.md",
-    "Lectures/March/10th March, 2022.md",
+    "Lectures/March/15th March, 2022.md",
     "Lectures/March/9th March, 2022.md",
-    "Lectures/March/8th March, 2022.md",
-    "Lectures/March/7th March, 2022.md",
-    "Lectures/March/3rd March, 2022.md",
-    "Lectures/March/2nd March, 2022.md",
-    "Lectures/March/4th March, 2022.md"
+    "Material for fhve.md",
+    "NotesC/String to Token.md",
+    "NotesC/Dynamic Memory Allocation.md",
+    "Lectures/March/14th March, 2022.md",
+    "NotesC/Dangling Pointer & Memory Leak.md",
+    "Lectures/March/10th March, 2022.md",
+    "Lectures/March/11th March, 2022.md",
+    "Syllabus for first sem.md"
   ]
 }
