@@ -46,5 +46,12 @@ This knowledge has particularly benefitted me in any test or exam. Sometimes we 
 
 ---- 
 
-#  Introduction
-Helping others 
+
+https://tanmayshah28.wixsite.com/website/post/art-of-living-knowledge-points
+
+
+# Introduction: 
+Advice that is universally applicable is often championed among the youth, and for a good reason. The five knowledge points given by Sri Sri Ravi Shankar Gurudev lie in the same category, and with their application in practicality, anyone can face any adversity with great calm.
+
+# Conclusion:
+We hope that the help we received from these points can be shared with more in the community. Ups and downs are part of life, but smiling through them is the art of life.
