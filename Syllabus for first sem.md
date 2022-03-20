@@ -82,3 +82,7 @@ and Non Homogeneous Recurrence Relations, Binomial Coefficients and Identities.(
 Classes, Closure of Relation, Representation and Operation on Relations, Posets, Totally Ordered Sets, Well-Ordered
 Sets, Least and Maximum Elements, Least Upper Bound, Greatest Lower Bound, Lattice(pdf pg 545-603)
 
+
+## DLD
+
+![[Screenshot 2022-03-20 at 2.53.13 PM.png]]
