@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Syllabus for first sem.md",
-            "mode": "preview"
+            "file": "temp.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rand",
+                "query": "#CCI",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Syllabus for first sem.md",
+                "file": "temp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,15 +114,15 @@
   },
   "active": "4cb7d71db2d62bab",
   "lastOpenFiles": [
-    "Syllabus for first sem.md",
     "temp.md",
-    "Material for fhve.md",
-    "Lectures/February/7th Feb, 2022.md",
-    "Lectures/February/14th Feb, 2022.md",
-    "Lectures/March/16th March, 2022.md",
-    "Lectures/March/14th March, 2022.md",
-    "Untitled.md",
-    "Lectures/March/15th March, 2022.md",
-    "Lectures/March/9th March, 2022.md"
+    "Syllabus for first sem.md",
+    "Lectures/March/11th March, 2022.md",
+    "Lectures/March/10th March, 2022.md",
+    "Lectures/March/4th March, 2022.md",
+    "Lectures/February/25th Feb, 2022.md",
+    "Lectures/February/17th Feb, 2022.md",
+    "Lectures/February/18th Feb, 2022.md",
+    "Lectures/February/24th Feb, 2022.md",
+    "Material for fhve.md"
   ]
 }
