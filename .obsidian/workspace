@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lectures/March/7th March, 2022.md",
+            "file": "fhve.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#OCW",
+                "query": "#cci",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,12 +48,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
+    "width": 244.5,
     "collapsed": true
   },
   "right": {
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectures/March/7th March, 2022.md",
+                "file": "fhve.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +105,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -115,15 +114,15 @@
   },
   "active": "cd921a13128ea4cf",
   "lastOpenFiles": [
-    "Lectures/March/7th March, 2022.md",
-    "Lectures/March/3rd March, 2022.md",
-    "Lectures/March/2nd March, 2022.md",
-    "Lectures/March/9th March, 2022.md",
-    "Lectures/March/14th March, 2022.md",
-    "Lectures/March/16th March, 2022.md",
-    "temp.md",
-    "Syllabus for first sem.md",
-    "Lectures/March/11th March, 2022.md",
-    "Lectures/March/10th March, 2022.md"
+    "fhve.md",
+    "Lectures/February/10th Feb, 2022.md",
+    "Lectures/February/25th Feb, 2022.md",
+    "Lectures/February/24th Feb, 2022.md",
+    "Lectures/February/18th Feb, 2022.md",
+    "Lectures/February/17th Feb, 2022.md",
+    "Lectures/February/11th Feb, 2022.md",
+    "Lectures/March/4th March, 2022.md",
+    "Lectures/March/10th March, 2022.md",
+    "Lectures/March/11th March, 2022.md"
   ]
 }

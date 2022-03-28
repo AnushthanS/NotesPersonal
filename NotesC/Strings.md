@@ -22,5 +22,5 @@
 	- **sscanf(source_string, "format specifiers", inputs);** takes input from the source string.
 
 
-4. a\[i]\[j] :: is allocated memory location at address x + (i * c + j) * k
+4. a\[i]\[j] :: is allocated memory location at address x + (i \* c + j) \* k
 	
