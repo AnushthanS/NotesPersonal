@@ -4,13 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "cd921a13128ea4cf",
+        "id": "d9b0c6430c71dbba",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "pdf",
           "state": {
-            "file": "fhve.md",
-            "mode": "preview"
+            "file": "NotesJava/NotesHarry/Notes (Harry)/JavaChapter1  --3,4.pdf"
           }
         }
       }
@@ -39,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#cci",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -52,8 +51,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 600.5
   },
   "right": {
     "id": "91cab6bb9112715a",
@@ -69,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fhve.md",
+                "file": "NotesJava/NotesHarry/Notes (Harry)/JavaChapter1  --3,4.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,17 +110,17 @@
     "width": 447.5,
     "collapsed": true
   },
-  "active": "cd921a13128ea4cf",
+  "active": "d9b0c6430c71dbba",
   "lastOpenFiles": [
-    "fhve.md",
-    "Lectures/February/10th Feb, 2022.md",
-    "Lectures/February/25th Feb, 2022.md",
-    "Lectures/February/24th Feb, 2022.md",
-    "Lectures/February/18th Feb, 2022.md",
-    "Lectures/February/17th Feb, 2022.md",
-    "Lectures/February/11th Feb, 2022.md",
-    "Lectures/March/4th March, 2022.md",
-    "Lectures/March/10th March, 2022.md",
-    "Lectures/March/11th March, 2022.md"
+    "NotesJava/NotesHarry/Notes (Harry)/JavaChapter1  --3,4.pdf",
+    "NotesJava/NotesHarry/Notes (Harry)/IntroToJava --1,2.pdf",
+    "NotesJava/NotesHarry/Notes (Harry)/UltimateJavaCheatSheet.pdf",
+    "NotesJava/NotesHarry/Java notes Codes.learning.pdf",
+    "NotesJava/NotesHarry/Problem Solving in Data Structures and Algorithms Using Java.pdf",
+    "NotesJava/NotesHarry/Data Structures and Algorithms in Java, 6th Edition.pdf",
+    "NotesJava/NotesHarry/Java The Complete Reference, 11th Edition.pdf",
+    "NotesJava/String Performance.md",
+    "NotesJava/Inner Classes.md",
+    "NotesJava/2 substring question.md"
   ]
 }
