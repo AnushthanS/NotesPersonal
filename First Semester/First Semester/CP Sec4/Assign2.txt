@@ -1,0 +1,515 @@
+1) Consider the following program fragment for reversing the digits in a given
+integer to obtain a new integer. Let n = D1D2...Dm
+
+int n, rev;
+rev = 0;
+while (n > 0)
+{
+  rev = rev*10 + n%10;
+  n = n/10;
+}
+
+The loop invariant condition at the end of the ith iteration is:
+a) n = D1D2....Dm-i and rev = DmDm-1...Dm-i+1
+b) n = Dm-i+1...Dm-1Dm and rev = Dm-1....D2D1
+c) n != rev
+d) n = D1D2....Dm and rev = DmDm-1...D2D
+
+
+Answer: (a)
+
+
+
+
+2) Consider the following C program
+
+main()
+{
+int x, y, m, n;
+scanf ("%d %d", &x, &y);
+/*Assume x>0 and y>0 */
+m = x;
+n = y;
+while (m != n)
+{
+if (m > n)
+  m = m - n;
+else
+  n = n - m;
+}
+printf ("% d", n);
+}
+
+The program computes:
+a) x ÷ y using repeated subtraction
+b) x mod y using repeated subtraction
+c) the greatest common divisor of x and y
+d) the least common multiple of x and y
+
+
+Answer: (c)
+
+
+
+
+3) Consider line number 3 of the following C- program.
+
+int main ( ) { /* Line 1 */
+int I, N; /* Line 2 */
+for (I = 0, I < N, I++); /* Line 3 */
+}
+
+Identify the compiler's response about this line while creating the object-module
+a) No compilation error
+b) Only syntactic errors
+c) Both lexical and syntactic errors
+d) No compilation error
+
+
+Answer: (b)
+
+
+
+
+4) What will be the output of the following C program segment?
+
+char inchar = 'A';
+switch (inchar)
+{
+case 'A' :
+  printf ("Choice A \n") ;
+case 'B' :
+  printf ("Choice B ") ;
+case 'C' :
+case 'D' :
+case 'E' :
+default:
+  printf ("No Choice") ; }
+
+a) No Choice
+b) Choice A
+Choice B No Choice
+c) Choice B
+d) Program gives no output as it is erroneous
+
+
+Answer: (b)
+
+
+
+
+5) Consider the following C program:
+
+# include <stdio.h>
+int main( )
+{
+int i, j, k = 0;
+j = 2 * 3 / 4 + 2.0 / 5 + 8 / 5;
+k -= --j;
+for (i = 0; i < 5; i++)
+{
+switch(i + k) {
+case 1:
+case 2: printf("\n%d", i + k);
+case 3: printf("\n%d", i + k);
+default: printf("\n%d", i + k);
+} }
+return 0;
+}
+
+The number of times printf statement is executed is __________.
+a) 8
+b) 9
+c) 10
+d) 11
+
+
+Answer: (c)
+
+
+
+
+6) Determine what the following program prints.
+
+#include <stdio.h>
+main ()
+{
+int r, t, m;
+scanf("%d", &r); /* Enter the last three digits of your
+roll number as r */
+printf("r = %d\n", r);
+m = 0;
+while (r > 0){
+t = r % 10;
+if (t > m)
+    m = t;
+  r = r / 10;
+  printf("m = %d\n", m);
+}
+return 0;
+}
+
+
+Answer:
+027
+r = 27
+m = 7
+m = 7
+
+
+
+
+7) How many times is the body of the following loop executed?
+
+int i;
+for (i=0; i<100; i=i+3)
+  printf("i = %d\n", i);
+
+
+a) 100
+b) 97
+c) 34
+d) 33
+
+
+Answer: (c)
+
+
+
+
+8) Consider the following program:
+
+#include <stdio.h>
+main ()
+{
+int m, n;
+printf("Supply two integers: ");
+scanf("%d%d",&m,&n);
+m = m - n;
+n = m + n;
+m = n - m;
+printf("%d %d\n", m,n);
+return 0;
+}
+
+What integer values are printed at the end of the above program.
+
+
+Answer:
+Supply two integers: -10 20
+20 -10
+
+
+
+
+9) Let i, j be integer variables. What is the value printed after the following loop?
+
+for (i=j=0; i<10; ++i) {
+j = i + j;
+++i;
+}
+printf("%d\n", j);
+
+a) 20
+b) 25
+c) 30
+d) 45
+
+
+Answer: (a)
+
+
+
+
+
+10) Let i, j, s be integer variables. What is the value of s printed after the
+following outer loop?
+
+s = i = 0;
+while (i < 10) {
+j = 0;
+while (j < 5) {
+if (i != j) ++s;
+++j;
+}
+++i;
+}
+printf("%d\n", s);
+
+a) 15
+b) 40
+c) 45
+d) 50
+
+
+Answer: (c)
+
+
+
+
+
+11) Consider the following program:
+
+#include <stdio.h>
+int main ()
+{
+int a,b,c,d;
+int r,s,t;
+scanf("%d%d%d%d", &a, &b, &c, &d);
+if (a > b) r = a; else r = b;
+if (c > d) s = c; else s = d;
+if (r > s) t = r; else t = s;
+printf("%d\n", t);
+}
+
+Suppose that the user inputs the values 5, 3, 5, 9 for a, b, c and d
+respectively. What value for t does the program print?
+
+
+Answer: 9
+
+
+
+
+12) What will be the contents of the variables a and b after the execution of the following code on the input I do not know ?
+
+char a, b;
+scanf("%c do not %c", &a, &b);
+printf("%c do not %c", a, b);
+
+
+Answer:
+I do not k
+
+
+
+
+13) The following program prints the most significant digit of an integer n.
+Fill in the blanks with only one statement per blank space.
+
+int main( ) {
+int n;
+printf ("Enter n") ;
+scanf ("%d", &n) ;
+while ( ________________________ ) {
+___________________________
+}
+printf ("The most significant digit is %d", n ) ;
+return 0;
+}
+
+
+Answer:
+
+int main() {
+int n;
+printf ("Enter n") ;
+scanf ("%d", &n) ;
+while ( n>9 ) {
+  n /= 10;
+}
+printf ("The most significant digit is %d", n ) ;
+return 0;
+}
+
+
+
+
+14) Write a C program which reads a sequence of positive integers till the user
+types −1. It counts the lengths of the non-decreasing sub sequences, and
+prints the maximum among them. For example, for input {6, 7, 2, 29, 17, 5, 5,
+11, 6, 7, 8, −1} the non- decreasing sub sequences are: {6, 7}, {2, 29}, {17},
+{5, 5, 11} and {6, 7, 8}. Thus the answer should be 3. Assume that the first
+integer read is not −1 and a single integer is a sequence of length 1.
+
+
+Answer:
+
+#include <stdio.h>
+#include <limits.h>
+int main(){
+    int n, max= INT_MIN;
+    scanf("%d", &n);
+    int length=1;
+
+    while(n != -1){
+        int temp1=0;
+        scanf("%d", &temp1);
+
+        if(temp1 >= n) length++;
+        else{
+            max = length > max ? length:max;
+            length=1;
+        }
+        n=temp1;
+    }
+    printf("Answer: %d", max);
+    return 0;
+}
+
+
+
+
+15) Write a C-program to print the first ten multiples of 5 using a while loop.
+[Sample Output : 5 10 15 20 25 30 35 40 45 50]
+
+
+Answer:
+
+#include <stdio.h>
+int main(){
+  int i=5;
+  while(i <= 50)){
+      printf("%d ", i);
+      i+=5;
+  }
+  return 0;
+}
+
+
+
+
+16)How many times will the print statement be executed?
+
+for(i=0;i<=99;i++)
+for(j=i;j<100;j++)
+printf(“Class Test 1\n”);
+
+Answer: 5050
+
+
+
+
+17) How many times will the following while loop execute? Explain your answer.
+
+char a='a';
+while(a > 'a' && a <= 'z')
+a++;
+
+Answer: The loop won't run even once since one of the conditions "a > 'a'" is false.
+ Expression uses "&&" which will give true only when both expressions are true.
+
+
+
+
+
+
+18) What is the value of s after the termination of the following loop?
+
+int n = 100, s;
+for (s = 2; n > 2; --n) {
+s += 2;
+n -= 2;
+}
+
+(a) 64
+(b) 66
+(c) 68
+(d) 98
+
+
+Answer: (c)
+
+
+
+
+19) What values does the following code print?
+
+int k;
+int num = 30;
+k = num > 5 ? (num <= 10 ? 100:200):500;
+printf ( "k = %d\n", k );
+
+
+Answer: 200
+
+
+
+
+
+20) You write a program which runs a loop for the user to enter a sequence of
+zeros and ones. Entering an integer other than 0;1 terminates the loop. Your
+task is to count how many times the user enters the sequence 1010. For
+example, if the user enters 1;0;0;1;0;1;0;1;0;0;1;0;1;0;1;1; 2, then the
+sequence 1010 occurs thrice:
+1 0 0 1 0 1 0 1 0 0 1 0 1 0 1 1
+In order to solve this problem, you maintain a progress indicator preflen to
+remember the length of the longest prefix of 1010, that you have read in the
+last preflen iterations (including the current one). For example, at the
+beginning of the loop, or after reading two consecutive zeros, preflen is zero
+(indicating that we cannot be somewhere inside a match of 1010 at this point
+of time). On the other hand, if you read two consecutive ones, preflen should
+be one, because if the user enters 0;1;0 in the next three iterations, then you
+locate one occurrence of the pattern 1010. For the user input in the example
+above, preflen changes as follows. The preflen value after processing each
+scanned integer is shown below.
+Input 1 0 0 1 0 1 0 1 0 0 1 0 1 0 1 1
+preflen 1 2 0 1 2 3 2 3 2 0 1 2 3 2 3 1
+Here, preflen starts with the value 0 before any user input. After the first input
+(1), match occurs with the first symbol of 1010, so preflen becomes 1. After
+the second input (0), the length of the matched prefix increases to two. The
+third input (0) destroys the partial match, so preflen reduces to zero.
+
+
+
+Answer:
+
+//Method 1
+
+#include <stdio.h>
+int main(){
+    int n, ans=0, preflen=0;
+    while(1){
+        scanf("%d", &n);
+        if(n==1){
+            switch(preflen){
+                case 0: preflen =1;
+                    break;
+                case 1: break;
+                case 2: preflen =3;
+                    break;
+                case 3: preflen =1;
+                    break;
+            }
+        }   else if(n==0){
+            switch(preflen){
+            case 0: break;
+            case 1: preflen =2;
+                break;
+            case 2: preflen =0;
+                break;
+            case 3: ans++;
+                preflen =2;
+                break;
+            }
+        }   else break;
+    }
+    printf("%d", ans);
+    return 0;
+}
+
+
+
+//Method 2
+//Simple method without preflen
+
+#include <stdio.h>
+int main(){
+    int arr[100];
+    int n=0, i=0;
+    while (1){
+        scanf("%d", &n);
+        if(n ==0 || n ==1){
+            arr[i] = n;
+            i++;
+        } else break;
+    }
+
+    int sizeArr = i;
+    int ans =0;
+    for(int j=0; j < sizeArr-3; j++){
+        if(arr[j] == 1 && arr[j+1] == 0 && arr[j+2] == 1 && arr[j+3] == 0) ans++;
+    }
+    printf("%d", ans);
+    return 0;
+}

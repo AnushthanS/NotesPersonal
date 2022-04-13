@@ -1,0 +1,242 @@
+1) What will be the output of following program ?
+#include <stdio.h>
+void main()
+{
+ printf("value is = %d",(10++));
+}
+
+Answer -
+error: lvalue required as increment operand
+
+
+
+2) What will be the output of following program ?
+#include <stdio.h>
+void main()
+{
+const char var='A';
+++var;
+printf("%c",var);
+}
+
+Answer -
+error: increment of read-only variable 'var'
+
+
+
+
+3) What will be the output of following program ?
+#include <stdio.h>
+void main()
+{
+int x=10;
+x+=(x++)+(++x)+x;
+printf("%d",x);
+}
+
+Answer -
+46
+
+
+
+4) What will be the output of following program ?
+#include <stdio.h>
+void main()
+{
+int a=10,b=2,x=0;
+x=a+b*a+10/2*a;
+printf("value is =%d",x);
+}
+
+Answer -
+value is =80
+
+
+
+5) What will be the output of following program ?
+#include <stdio.h>
+void main()
+{
+unsigned short var='B';
+var+=2;
+var++;
+printf("var : %c , %d ", var,var);
+}
+
+Answer -
+var : E , 69
+
+
+
+6) What will be the output of following program ?
+#include <stdio.h>
+void main()
+{
+char var=10;
+printf("var is = %d",++var++);
+}
+
+Answer -
+error: lvalue required as increment operand
+
+
+
+
+7) What will be the output of following program ?
+#include <stdio.h>
+void main()
+{
+int x=(20 || 40 ) && (10);
+printf("x= %d",x);
+}
+
+Answer -
+x= 1
+
+
+
+8) What will be the output of following program ?
+#include <stdio.h>
+void main()
+{
+int x;
+x= (printf("AA")||printf("BB"));
+printf("%d",x);
+printf("\n");
+x= (printf("AA")&&printf("BB"));
+printf("%d",x);
+}
+
+Answer -
+AA1
+AABB1
+
+
+
+9) What will be the output of following program ?
+#include <stdio.h>
+void main()
+{
+ int a=3,b=2;
+ a=a==b==0;
+ printf("%d,%d",a,b);
+}
+
+Answer -
+1,2
+
+
+
+10) What will be the output of following program ?
+#include <stdio.h>
+void main(){
+ int intVar=20,x;
+ x= ++intVar,intVar++,++intVar;
+ printf("Value of intVar=%d, x=%d",intVar,x);
+}
+
+Answer -
+Value of intVar=23, x=21
+
+
+
+11) What will be the output of following program ?
+#include <stdio.h>
+int main(){
+ char val=250;
+ int ans;
+ ans= val+ !val + ~val + ++val;
+ printf("%d",ans);
+ return 0;
+}
+
+Answer -
+-6
+
+
+
+12) What will be the output of following program ?
+#include <stdio.h>
+int main(){
+ float a;
+ (int)a= 10;
+ printf("value of a=%d",a);
+ return 0;
+}
+
+Answer -
+error: lvalue required as left operand of assignment
+
+
+
+
+13) What will be the output of following program ?
+   #include <stdio.h>
+   int main(){
+   int x;
+   x=100,30,50;
+   printf("x=%d\n",x);
+   x=(100,30,50);
+   printf("x=%d\n",x);
+   return 0;
+  }
+
+Answer -
+x=100
+x=50
+
+
+
+14) What will be the output of following program ?
+#include <stdio.h>
+int main()
+{
+int i=-1,j=-1,k=0,l=2,m;
+m=i++&&j++&&k++||l++;
+printf("%d %d %d %d %d",i,j,k,l,m);
+return 0;
+}
+
+Answer -
+0 0 1 3 1
+
+
+
+15) What will be the output of following program ?
+#include <stdio.h>
+int main()
+{
+int var;
+var=- -10;
+printf("value of var= %d\n",var);
+var=+ +10;
+printf("value of var= %d\n",var);
+return 0;
+}
+
+Answer -
+value of var= 10
+value of var= 10
+
+
+
+16) What will be the value of x and y ?
+#include <stdio.h>
+int main()
+{
+ int x,y;
+
+ x=(100,200);
+ y=100,200;
+
+ printf("x=%d,y=%d",x,y);
+ return 0;
+}
+
+Answer -
+x=200,y=100
+
+
+
+17) Arrange the operators according to their precedence: +, %, ->, =
+Answer :    ->    %     +    =

@@ -4,12 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "d9b0c6430c71dbba",
+        "id": "bff93c0719fd5668",
         "type": "leaf",
         "state": {
-          "type": "pdf",
+          "type": "markdown",
           "state": {
-            "file": "NotesJava/NotesHarry/Notes (Harry)/JavaChapter1  --3,4.pdf"
+            "file": "12th April, 2022.md",
+            "mode": "preview"
           }
         }
       }
@@ -51,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 600.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "91cab6bb9112715a",
@@ -67,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NotesJava/NotesHarry/Notes (Harry)/JavaChapter1  --3,4.pdf",
+                "file": "12th April, 2022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,8 +112,9 @@
     "width": 447.5,
     "collapsed": true
   },
-  "active": "d9b0c6430c71dbba",
+  "active": "bff93c0719fd5668",
   "lastOpenFiles": [
+    "12th April, 2022.md",
     "NotesJava/NotesHarry/Notes (Harry)/JavaChapter1  --3,4.pdf",
     "NotesJava/NotesHarry/Notes (Harry)/IntroToJava --1,2.pdf",
     "NotesJava/NotesHarry/Notes (Harry)/UltimateJavaCheatSheet.pdf",
@@ -120,7 +123,6 @@
     "NotesJava/NotesHarry/Data Structures and Algorithms in Java, 6th Edition.pdf",
     "NotesJava/NotesHarry/Java The Complete Reference, 11th Edition.pdf",
     "NotesJava/String Performance.md",
-    "NotesJava/Inner Classes.md",
-    "NotesJava/2 substring question.md"
+    "NotesJava/Inner Classes.md"
   ]
 }
