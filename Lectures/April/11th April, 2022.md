@@ -28,6 +28,10 @@ make btest
 
 gcc -O -Wall -m32 -lm -o btest bits.c btest.c decl.c tests.c
 
+```ad-note 
+clang -O -Wall -mfp32 -lm -o btest bits.c btest.c decl.c tests.c
+```
+
 - Try to make a rosetta terminal and check btest
 - Try UTM+QEMU if it doesn't work
 - Final option will be parallels with 80$ license

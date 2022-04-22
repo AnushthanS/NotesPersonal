@@ -4,23 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "bff93c0719fd5668",
+        "id": "8e9399d6fee5b631",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "NotesJava/R3.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "f767c5df205f5125",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "NotesJava/R3.md",
+            "file": "NotesJava/Inner Classes.md",
             "mode": "preview"
           }
         }
@@ -50,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#DSA",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5,
-    "collapsed": true
+    "width": 244.5
   },
   "right": {
     "id": "91cab6bb9112715a",
@@ -80,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NotesJava/R3.md",
+                "file": "NotesJava/Inner Classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,17 +111,17 @@
     "width": 447.5,
     "collapsed": true
   },
-  "active": "bff93c0719fd5668",
+  "active": "8e9399d6fee5b631",
   "lastOpenFiles": [
+    "NotesJava/Inner Classes.md",
+    "NotesJava/String Performance.md",
     "NotesJava/R3.md",
-    "NotesJava/R1.md",
-    "NotesJava/Multidimensional ArrayList.md",
-    "NotesJava/R5.md",
-    "NotesJava/R7.md",
-    "NotesJava/R6.md",
-    "NotesJava/Regex Sequence.md",
-    "NotesJava/Regex Examples.md",
-    "NotesJava/R4.md",
-    "NotesJava/R2.md"
+    "NotesC/CFP_15thapril.pdf",
+    "NotesC/CFP till now..pdf",
+    "NotesC/C_Vinayak.pdf",
+    "NotesC/Basic Structure.md",
+    "Lectures/April/19th April, 2022.md",
+    "NotesC/R1.md",
+    "Lectures/April/18th April, 2022.md"
   ]
 }
