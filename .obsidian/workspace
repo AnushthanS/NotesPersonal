@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "NotesJava/Inner Classes.md",
-            "mode": "preview"
+            "file": "EEN/27th April.md",
+            "mode": "source"
           }
         }
       }
@@ -52,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 244.5,
+    "collapsed": true
   },
   "right": {
     "id": "91cab6bb9112715a",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NotesJava/Inner Classes.md",
+                "file": "EEN/27th April.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,15 +114,15 @@
   },
   "active": "8e9399d6fee5b631",
   "lastOpenFiles": [
+    "EEN/27th April.md",
+    "EEN/25th April.md",
+    "EEN/23rd April.md",
     "NotesJava/Inner Classes.md",
     "NotesJava/String Performance.md",
     "NotesJava/R3.md",
     "NotesC/CFP_15thapril.pdf",
     "NotesC/CFP till now..pdf",
     "NotesC/C_Vinayak.pdf",
-    "NotesC/Basic Structure.md",
-    "Lectures/April/19th April, 2022.md",
-    "NotesC/R1.md",
-    "Lectures/April/18th April, 2022.md"
+    "NotesC/Basic Structure.md"
   ]
 }
