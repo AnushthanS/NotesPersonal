@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "EEN/27th April.md",
-            "mode": "source"
+            "file": "2nd Sem Syllabus.md",
+            "mode": "preview"
           }
         }
       }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EEN/27th April.md",
+                "file": "2nd Sem Syllabus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +114,7 @@
   },
   "active": "8e9399d6fee5b631",
   "lastOpenFiles": [
+    "2nd Sem Syllabus.md",
     "EEN/27th April.md",
     "EEN/25th April.md",
     "EEN/23rd April.md",
@@ -122,7 +123,6 @@
     "NotesJava/R3.md",
     "NotesC/CFP_15thapril.pdf",
     "NotesC/CFP till now..pdf",
-    "NotesC/C_Vinayak.pdf",
-    "NotesC/Basic Structure.md"
+    "NotesC/C_Vinayak.pdf"
   ]
 }
