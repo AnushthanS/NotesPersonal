@@ -1,6 +1,0 @@
-- Biomass and Biofuels
-- Green diesel, etahnol
-- Energy transformation: from non-renewable to renewable
-- Methane SAT
-- UN SDG (sustainable development goals)
-- About 84% global energy comes from fossil fuels
