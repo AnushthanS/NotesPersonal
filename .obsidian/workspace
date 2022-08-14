@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "NotesJava/R5.md",
-            "mode": "preview"
+            "file": "NotesJava/Fast IO.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -39,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#format",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NotesJava/R5.md",
+                "file": "NotesJava/Fast IO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +115,8 @@
   },
   "active": "2c807314919aa055",
   "lastOpenFiles": [
+    "NotesJava/Regex in Java 1.md",
+    "NotesJava/Regex in Java 2.md",
     "NotesJava/R5.md",
     "NotesJava/StringTokenizer.md",
     "NotesJava/StringBuilder.md",
@@ -121,8 +124,6 @@
     "NotesJava/Regex Examples.md",
     "NotesJava/R4.md",
     "NotesJava/R2.md",
-    "NotesJava/R3.md",
-    "NotesJava/R6.md",
-    "NotesJava/R7.md"
+    "NotesJava/R3.md"
   ]
 }

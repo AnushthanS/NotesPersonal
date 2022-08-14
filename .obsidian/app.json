@@ -5,6 +5,7 @@
   "foldHeading": true,
   "foldIndent": true,
   "promptDelete": false,
-  "legacyEditor": true,
-  "communityThemeSortOrder": "releaseReverse"
+  "legacyEditor": false,
+  "communityThemeSortOrder": "releaseReverse",
+  "livePreview": true
 }
