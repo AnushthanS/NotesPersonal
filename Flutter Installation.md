@@ -1,0 +1,1 @@
+- Extracted flutter sdk in `/usr/local/`

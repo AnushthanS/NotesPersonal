@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "2c807314919aa055",
+        "id": "b44fa7569d20de3c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "NotesJava/Fast IO.md",
-            "mode": "source",
+            "file": "NotesFlutter/R1.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NotesJava/Fast IO.md",
+                "file": "NotesFlutter/R1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,17 +113,17 @@
     "width": 447.5,
     "collapsed": true
   },
-  "active": "2c807314919aa055",
+  "active": "b44fa7569d20de3c",
   "lastOpenFiles": [
+    "Flutter Installation.md",
+    "NotesFlutter/R1.md",
+    "NotesRust/N1.md",
+    "NotesJava/Fast IO.md",
     "NotesJava/Regex in Java 1.md",
     "NotesJava/Regex in Java 2.md",
     "NotesJava/R5.md",
     "NotesJava/StringTokenizer.md",
     "NotesJava/StringBuilder.md",
-    "NotesJava/Regex Sequence.md",
-    "NotesJava/Regex Examples.md",
-    "NotesJava/R4.md",
-    "NotesJava/R2.md",
-    "NotesJava/R3.md"
+    "NotesJava/Regex Sequence.md"
   ]
 }
