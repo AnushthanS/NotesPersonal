@@ -1,0 +1,42 @@
+create table Customer(
+Cust_ID varchar(5) UNIQUE,
+name varchar(30),
+city varchar(15),
+state varchar(15),
+pincode int,
+products varchar(40),
+price int);
+
+insert into Customer values( 'C109', 'John', 'Mumbai', 'Maharastra', 651127, 'football kit', 6255);
+
+update Customer set price=
+
+select products from Customer where products like '%D%';
+select Cust_ID, name from Customer where city like '%Chennai%';
+select * from Customer where Cust_ID='C104' or  Cust_ID='C108';
+select products from Customer where price>2000 && price<=5000;
+
+
+----
+
+create database business;
+use business;
+
+create table employee(
+emp_no int,
+emp_name varchar(30),
+doj Date,
+ph_no bigint,
+dept_name varchar(30),
+designation varchar(30),
+salary int
+);
+
+insert into employee values(4600,'John','2019-05-2',9426123323,'Sales','Sales Manager',45000);
+
+insert into employee values(4601,'Nikhil','2019-04-3',9423123423,'HR','HR',47000);
+
+insert into employee values(4602,'Raj','2019-04-4',9426113423,'Accounts','CA',42000);
+
+update employee set salary=25000 where designation='typist';
+'\N'
