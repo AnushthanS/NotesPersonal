@@ -1,6 +1,19 @@
-> In conjunction with [[Tags]]
+> In conjunction with [[Tags]] and [[Entities]]
+
+- A common attribute used with html tag is *lang* used to set the language of the content of the web page `<html lang="en">`
+
+&nbsp
 
 ### Tag = `<meta>`
 1. *charset*, usually using **UTF-8** `<meta charset="UTF-8">`
+2. *name* for giving some information/definition, used together with *content* which stores the word content which the *name* heading stores. Eg:
+	- `<meta name="author" content="Anushthan Saxena">`
+	- `<meta name="description" content = "Learning HTML">`
 
 ### Tag = `<link>`
+1. *rel* describes the realtionship of the link, can be something like 
+	- `<link rel="icon" href="icon.png" type="image/x-icon">`
+2. The above example also uses *href* **(hypertext referencing)** and *type* attributes
+
+### Tag = `<abbr>`
+- *title* is the text which should appear when hovering over the abbreviated word.

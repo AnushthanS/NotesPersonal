@@ -1,0 +1,2 @@
+- **paragraph elements** `<p>` make extra space in formatting, looks like an extra line when other things appear around them
+- Keep validating html codes from the [**w3c markup validator**](https://validator.w3.org)
