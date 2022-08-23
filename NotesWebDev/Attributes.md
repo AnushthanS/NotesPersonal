@@ -3,6 +3,7 @@
 - A common attribute used with html tag is *lang* used to set the language of the content of the web page `<html lang="en">`
 
 &nbsp
+- *style* attribute can be added to most text-based tags to get quick css formatting.
 
 ### Tag = `<meta>`
 1. *charset*, usually using **UTF-8** `<meta charset="UTF-8">`
@@ -17,3 +18,7 @@
 
 ### Tag = `<abbr>`
 - *title* is the text which should appear when hovering over the abbreviated word.
+
+### Tag = `<a>`
+- `href` and maybe `download`. `href` can have different kind of values:
+	- ``
