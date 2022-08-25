@@ -40,3 +40,19 @@ insert into employee values(4602,'Raj','2019-04-4',9426113423,'Accounts','CA',42
 
 update employee set salary=25000 where designation='typist';
 '\N'
+
+
+
+insert into Customers values( 2505, '1960-03-10', 'f', 'Kelvin', 'Hamburg', 'Germany');
+
+insert into products values( 1, 1000, 'pen', 'yes', 100);
+insert into products values( 2, 1100, 'toy', 'no', 10);
+insert into products values( 3, 2505, 'pencil', 'yes', 30);
+insert into products values( 4, 1205, 'duck', 'yes', 50);
+insert into products values( 6, 200, 'hat', 'yes', 10);
+insert into products values( 7, 2505, 'pot', 'no', 90);
+insert into products values( 9, 1100, 'chalk', 'no', 10);
+
+alter table products add constraint foreign key (ProductID) references customers(CustomerID);
+
+select * from customers where City like 'a%' or City like 'b%' or City like 'c%' or City like 'd%' or City like 'e%' or City like 'f%';

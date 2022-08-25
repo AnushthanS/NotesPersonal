@@ -4,66 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5f49cbb28b53c612",
-        "type": "split",
-        "children": [
-          {
-            "id": "123f322bbbd54306",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NotesWebDev/Attributes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e58b197d616d7ff9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NotesWebDev/Tags.md",
-                "mode": "source",
-                "source": false
-              }
-            }
+        "id": "a1e9314c5664e89d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "NotesJava/Regex in Java 1.md",
+            "mode": "source",
+            "source": false
           }
-        ],
-        "direction": "horizontal"
-      },
-      {
-        "id": "e9540f758958fc21",
-        "type": "split",
-        "children": [
-          {
-            "id": "9ebc43b11bcaad24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NotesWebDev/html2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a1e9314c5664e89d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NotesWebDev/Entities.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "direction": "horizontal"
+        }
       }
     ],
     "direction": "vertical"
@@ -90,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "regex",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,12 +49,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 248,
-    "collapsed": true
+    "width": 248
   },
   "right": {
     "id": "91cab6bb9112715a",
@@ -120,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NotesWebDev/Entities.md",
+                "file": "NotesJava/Regex in Java 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,15 +115,15 @@
   },
   "active": "a1e9314c5664e89d",
   "lastOpenFiles": [
+    "NotesJava/Regex in Java 2.md",
+    "temp.md",
     "NotesWebDev/html2.md",
-    "NotesWebDev/Attributes.md",
     "NotesWebDev/Tags.md",
+    "NotesWebDev/Attributes.md",
     "NotesWebDev/Entities.md",
     "NotesWebDev/html1.md",
     "NotesFlutter/R1.md",
     "Flutter Installation.md",
-    "NotesRust/N1.md",
-    "NotesJava/Fast IO.md",
-    "NotesJava/Regex in Java 1.md"
+    "NotesRust/N1.md"
   ]
 }

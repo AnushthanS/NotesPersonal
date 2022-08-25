@@ -1,0 +1,9 @@
+- Primary key = not null + unique
+- check (P) : checks for predicate on input
+- unique(A1, A2, A3, ...) can be added to the last, and any other constraint can be added like this too
+- `check(semester in("Fall", "Winter", "Spring", "Summer"))` will only take these values
+- Referential integrity constraint: add `references <table>` to the end of the required attribute. The table referenced is also modified.
+- For the table referenced: the attribute to become the foreign key should be the primary key
+	- `foreign key dept_name references department`
+	- dept_name will be a primary key in department relation
+- Default: `salary numeric(6,2) default 10000`
