@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "NotesJava/Regex in Java 1.md",
+            "file": "NotesWebDev/js2.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "regex",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -49,12 +49,12 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 248
+    "width": 248,
+    "collapsed": true
   },
   "right": {
     "id": "91cab6bb9112715a",
@@ -70,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NotesJava/Regex in Java 1.md",
+                "file": "NotesWebDev/js2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,6 +115,8 @@
   },
   "active": "a1e9314c5664e89d",
   "lastOpenFiles": [
+    "NotesWebDev/js1.md",
+    "NotesJava/Regex in Java 1.md",
     "NotesJava/Regex in Java 2.md",
     "temp.md",
     "NotesWebDev/html2.md",
@@ -122,8 +124,6 @@
     "NotesWebDev/Attributes.md",
     "NotesWebDev/Entities.md",
     "NotesWebDev/html1.md",
-    "NotesFlutter/R1.md",
-    "Flutter Installation.md",
-    "NotesRust/N1.md"
+    "NotesFlutter/R1.md"
   ]
 }
