@@ -56,3 +56,53 @@ insert into products values( 9, 1100, 'chalk', 'no', 10);
 alter table products add constraint foreign key (ProductID) references customers(CustomerID);
 
 select * from customers where City like 'a%' or City like 'b%' or City like 'c%' or City like 'd%' or City like 'e%' or City like 'f%';
+
+
+----
+
+create table employee(
+ emp_id int AUTO_INCREMENT,
+ emp_name varchar(30),
+ emp_dept varchar(30),
+ emp_age int,
+ place varchar(30),
+ income int,
+ doj Date,
+ PRIMARY KEY (emp_id));
+
+
+ mysqlimport --ignore-lines=1 \
+      --fields-terminated-by=, \
+      --local -u root \
+      -p lab4 \
+      account_relation.csv
+
+
+ load data infile "/Users/anushthan/Development/NotesPersonal/LabWork/DBMSLab/account.csv"  into table account fields terminated by ',';
+
+
+
+
+2. select customer_name,borrower.loan_number,amount from borrower, loan where borrower.loan_number = loan.loan_number;
+
+3. select customer_name,b.loan_number,amount from borrower b, loan l where b.loan_number = l.loan_number and l.branch_name= "Perryridge";
+
+4. select branch_name from branch where assets > some(select assets from branch where branch_city = "Brooklyn");
+
+5. select customer_name FROM loan l, borrower b where l.loan_number = b.loan_number && l.branch_name = "Perryridge" ORDER BY customer_name ASC;
+6. select count(*) from customer;
+7. select avg(balance) from account;
+
+10. select avg(balance) from account where branch_name= "Perryridge";
+9.  select sum(amount) from loan;
+
+11. select branch_name, avg(balance) from account group by branch_name;
+
+12. select branch_name, avg(balance) from account group by branch_name having avg(balance) > 1200;
+
+
+select depositor.customer_name, avg(balance) 
+from depositor, account, customer
+ where depositor.account_number=account.account_number and depositor.customer_name=customer. customer_name and customer_city='Harrison' 
+ group by depositor.customer_name 
+ having count(distinct depositor.account_number)>=3;
