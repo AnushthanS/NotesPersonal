@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "89d31e8dbbcf8ba6",
+        "id": "9cd6765682c2404c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "Syllabus.md",
-            "mode": "preview",
+            "mode": "source",
             "source": false
           }
         }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248,
-    "collapsed": true
+    "width": 248
   },
   "right": {
     "id": "91cab6bb9112715a",
@@ -98,7 +97,7 @@
             }
           },
           {
-            "id": "55ecf19b9948f686",
+            "id": "6c0b11b6423d7eba",
             "type": "leaf",
             "state": {
               "type": "todo",
@@ -106,24 +105,24 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 447.5,
     "collapsed": true
   },
-  "active": "89d31e8dbbcf8ba6",
+  "active": "6c0b11b6423d7eba",
   "lastOpenFiles": [
-    "NotesWebDev/Tags.md",
-    "NotesWebDev/js2.md",
-    "NotesWebDev/Attributes.md",
-    "Syllabus.md",
-    "NotesWebDev/html2.md",
-    "Flutter Installation.md",
-    "NotesWebDev/js1.md",
-    "NotesJava/Regex in Java 1.md",
     "NotesJava/Regex in Java 2.md",
-    "Speech.md"
+    "NotesJava/Inner Classes.md",
+    "NotesJava/2 substring question.md",
+    "NotesJava/String Performance.md",
+    "NotesJava/R3.md",
+    "NotesJava/Fast IO.md",
+    "NotesJava/R5.md",
+    "Syllabus.md",
+    "NotesWebDev/Tags.md",
+    "NotesWebDev/js2.md"
   ]
 }
