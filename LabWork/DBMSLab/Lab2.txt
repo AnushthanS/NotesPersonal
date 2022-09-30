@@ -106,3 +106,213 @@ from depositor, account, customer
  where depositor.account_number=account.account_number and depositor.customer_name=customer. customer_name and customer_city='Harrison' 
  group by depositor.customer_name 
  having count(distinct depositor.account_number)>=3;
+
+
+
+****
+
+Lab 6
+
+select emp_name, doj from employee
+where emp_dept = (select distinct emp_dept from employee 
+where emp_name = "Mark") and emp_name != "Mark";
+
+select emp_id, emp_name
+from employee
+where income > 
+(select avg(income) from employee)
+order by income desc;
+
+
+create table Sailors(
+sid int,
+sname varchar(30),
+rating int,
+age real
+);
+
+create table Boats(
+bid int,
+bname varchar(30),
+color varchar(10)
+);
+
+create table Reserves(
+sid int,
+bid int,
+day date
+);
+
+insert into Reserves values(22, 101, "1998-10-10"); 
+insert into Reserves values(22, 102, "1998-10-10");
+insert into Reserves values(22, 103, "1998-10-8");
+insert into Reserves values(22, 104, "1998-10-7");
+
+insert into Reserves values(31, 102, "1998-11-10");
+insert into Reserves values(31, 103, "1998-11-6");
+insert into Reserves values(31, 104, "1998-11-12");
+insert into Reserves values(64, 101, "1998-9-5");
+
+insert into Reserves values(64, 102, "1998-9-8");
+insert into Reserves values(74, 103, "1998-9-8");
+
+
+insert into Sailors values(22, "Dustin", 7, 45); 
+insert into Sailors values(29, "Brutus", 1, 33);
+insert into Sailors values(31, "Lubber", 8, 33.5);
+insert into Sailors values(32, "Andy", 8, 25.5);
+
+insert into Sailors values(58, "Rusty", 10, 35);
+insert into Sailors values(64, "Horatio", 7, 35);
+insert into Sailors values(71, "Zorba", 10, 16);
+insert into Sailors values(74, "Horatio", 9, 40);
+
+insert into Sailors values(85, "Art", 3, 25.5);
+insert into Sailors values(95, "Bob", 3, 63.5);
+
+
+select emp_name,emp_dept,doj from employee 
+where emp_id in (select emp_id from employee where place = "india");
+
+select * from sailors
+where sid in
+(select sid from reserves where bid = 101);
+
+select bname from boats
+where bid in (
+select bid from reserves
+where sid in
+(select distinct sid from sailors
+where sname = "Bob")
+);
+
+select sname from sailors
+where sid in (
+select sid from reserves 
+where bid in
+(select bid from boats
+where color = 'red')
+) order by age;
+
+
+select distinct sid from reserves where bid in (select bid from boats where color="red" or color="green");
+
+
+select count(sname) from sailors 
+where sname in (select distinct sname from sailors);
+
+9
+select rating, age from (select rating, avg(age) as age from sailors group by rating) as t group by rating;
+
+10
+select age from 
+(select avg(age) as age from sailors 
+group by rating 
+having count(*) >= 2) as ans;
+
+
+5
+select sid,sname from sailors 
+where sid in 
+(select sid from reserves r1 
+where sid in 
+(select sid from reserves r2 
+where r1.day = r2.day and r1.bid != r2.bid));
+
+
+insert into customer values ("Adams", "Spring", "Pittsfield");
+
+insert into customer values ("Brooks", "Senator", "Brooklyn");
+insert into customer values ("Curry", "North", "Rye");
+
+insert into customer values ("Glenn", "Sand Hill", "Woodside");
+insert into customer values ("Green", "Walnut", "Stamford");
+
+insert into customer values ("Hayes", "Main", "Harrison");
+insert into customer values ("Johnson", "Alma", "Palo Alto");
+
+insert into customer values ("Jones", "Main", "Harrison");
+insert into customer values ("Lindsay", "Park", "Pittsfield");
+insert into customer values ("Smith", "North", "Rye");
+
+
+insert into customer values ("Turner", "Putnam", "Stamford");
+insert into customer values ("Williams", "Nassau", "Princeton");
+
+
+Practice Questions assignment
+
+select branch_name from account natural join depositor
+where account.account_number in
+(select account_number from depositor
+where customer_name in
+(select customer_name from customer
+where customer_city = "Pittsfield"));
+
+select customer_name, balance from account
+natural join depositor 
+where account.account_number = depositor.account_number 
+and account.balance >= 700;
+
+select sum(amount) as total from loan
+where loan_number in 
+(select loan_number from borrower
+where customer_name = "Smith");
+
+
+select branch_city, count(branch_city) from branch 
+group by branch_city having count(branch_city) > 1;
+
+
+select customer_name, branch_name, branch_city 
+from depositor natural join account natural join branch where branch_city   in 
+(select branch_city from branch group by branch_city having count(branch_city) > 1);
+
+select customer_city, amount from customer left join borrower 
+on customer.customer_name = borrower.customer_name 
+left join loan on loan.loan_number = borrower.loan_number;
+
+
+select customer_name, sum(balance) 
+from customer  left  join depositor using(customer_name) 
+left join account using(account_number) group by customer_name;
+
+
+
+select customer_name,  sum(amount)from customer 
+left join borrower using(customer_name) 
+left join loan using (loan_number) group by customer_name;
+
+
+create view view1 as 
+select customer_name, account_number, loan_number from
+(customer natural left outer join depositor) 
+natural left outer join borrower
+group by customer_name;
+
+create view view1 as select customer_name,account_number,loan_number
+from ((customer natural left join borrower)natural left outer join 
+depositor)natural left outer join account;
+
+
+
+
+create view view2 as 
+select customer_name, customer_city from customer;
+insert  into view2 values("Anushthan", "Agra");
+desc view2;
+
+create view view3 as 
+select account_number, branch_name, max(balance) from account;
+insert into view3("A1", "Pittsfield", 2000);
+desc view3;
+
+create view view4 as 
+select account_number, branch_name, balance from account
+group by balance;
+insert into view4("A1", "Creekside", 100000);
+desc view4;
+
+create view view5 as select * from  customer,  account;
+insert into view5 values("Anushthan", "BankA", "Agra", "A1", "Another Bank", 10000);
+desc view5;
