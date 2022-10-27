@@ -316,3 +316,160 @@ desc view4;
 create view view5 as select * from  customer,  account;
 insert into view5 values("Anushthan", "BankA", "Agra", "A1", "Another Bank", 10000);
 desc view5;
+
+
+
+
+
+
+
+delimiter //
+create procedure insertData()
+begin
+iinsert into customer values ("Adams", "Spring", "Pittsfield");
+end;
+delimiter ;
+
+delimiter //;
+create procedure insertData(IN account_number varchar(20), IN branch varchar(15), IN balance decimal(12, 2))
+begin
+    insert into account values (account_number, branch, balance);
+end//;
+call insertData("A-450", "Chinatown", "500");
+
+delimiter //;
+create procedure sumProduct(IN num1 int, IN num2 int, OUT sum int, OUT product int)
+begin
+    select num1 + num2 into sum;
+    select num1 * num2 into product;
+end//;
+call sumProduct(10, 10, @sum, @product);
+
+delimiter //;
+create procedure displayAccount(IN bal decimal(12, 2))
+begin
+    select * from account where balance > bal;
+end //;
+
+ddelimiter //
+create procedure displayCity(IN name varchar(20))
+begin
+declare i int;
+set i = 0;
+declare msg varchar(40);
+set msg = "New entry inserted";
+select count(*) into i from customer_relation where customer_name=name;
+if i > 0 then 
+select customer_city from customer_relation where customer_name=name;
+else 
+insert into customer_relation values(name, "Vadala", "Mumbai");
+select msg;
+end if;
+end //
+
+
+
+delimiter //;
+create procedure checkLoan(in name varchar(20))
+begin
+declare loan varchar(30) default "entry for this customer found";
+declare noLoan varchar(30) default "No loan entry for this customer";
+
+declare c int default 0;
+select count(loan_number) into c from borrower where customer_name = name;
+if c>0 then select present;
+else select absent;
+end if;
+end //;
+
+
+
+
+delimiter //
+create procedure display(in id int)
+begin
+    select emp_name, emp_dept, income from employee where emp_id = id;
+end //
+call display(2521);
+
+
+delimiter //
+
+create procedure deptIncome(IN name VARCHAR(30))
+begin
+
+select sum(income) from employee where emp_dept = name group by emp_dept;
+end //
+
+call dept_income("Finance");
+
+
+delimiter //;
+create procedure sq(INOUT num bigint)
+begin
+     select power(num, 2) as square;
+end//;
+
+set @num = 10;
+
+
+
+delimiter //
+create procedure display_details_employee(in dept_name varchar(20))
+begin
+    select emp_name, emp_dept, emp_age from dbmslab7.employee where emp_dept = dept_name;
+end //
+call displayEmployee("Management");
+
+
+
+
+LAB 8
+
+
+
+delimiter $$
+create trigger before_workcenters_insert
+before insert 
+on WorkCenters for each row
+begin
+    delcare rowcount int;
+    select count(*)
+    into rowcount
+    from WorkCenterStats;
+
+    if rowcount > 0
+    then
+        update WorkCenterStats
+        set totalCapacity = totalCapacity + new.capacity;
+    else
+        insert into WorkCenterStats(totalCapacity)
+        values (new.capacity);
+    end if;
+end $$
+
+insert into WorkCenters values(112, "A1", 7);
+insert into members values(1, 'Anushthan', 'abc@xyz.com', NULL);
+
+
+
+
+
+delimiter $$  
+CREATE TRIGGER before_salaries_delete
+BEFORE DELETE  
+ON Salaries FOR EACH ROW  
+BEGIN  
+    INSERT INTO SalaryArchives(employeeNumber,validFrom,amount)
+    VALUES(OLD.employeeNumber,OLD.validFrom,OLD.amount); 
+END$$
+
+
+delimiter $$
+CREATE TRIGGER after_salaries_delete
+AFTER DELETE
+ON Salaries FOR EACH ROW
+BEGIN
+    UPDATE SalaryBudgets 
+    SET total = total - old.salary;
+END $$
