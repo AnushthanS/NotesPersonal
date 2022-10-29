@@ -11,9 +11,11 @@
             "id": "8873093a4eef99bc",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "NotesJava/NotesHarry/Notes (Harry)/1920px-Java.util.Collection_hierarchy.svg.png"
+                "file": "Databases.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -75,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NotesJava/NotesHarry/Notes (Harry)/1920px-Java.util.Collection_hierarchy.svg.png",
+                "file": "Databases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,6 +125,7 @@
   },
   "active": "8873093a4eef99bc",
   "lastOpenFiles": [
+    "NotesJava/NotesHarry/Notes (Harry)/1920px-Java.util.Collection_hierarchy.svg.png",
     "Databases.md",
     "Syllabus.md",
     "NotesJava/Regex in Java 2.md",
@@ -131,7 +134,6 @@
     "NotesJava/String Performance.md",
     "NotesJava/R3.md",
     "NotesJava/Fast IO.md",
-    "NotesJava/R5.md",
-    "NotesWebDev/Tags.md"
+    "NotesJava/R5.md"
   ]
 }
