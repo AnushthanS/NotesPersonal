@@ -477,7 +477,6 @@ END $$
 
 
 # Lab 9
-
 delimiter //
 create function my_fun(value numeric(12,2))
 returns int
@@ -489,86 +488,3 @@ balance>value;
 return (r);
 end//
 
-
-
-delimiter //
-create function balance_levels(balance decimal(12, 2))
-returns varchar(20)
-deterministic
-begin
-    if balance >= 900 then
-        return 'PLATINUM';
-    elseif balance >= 700 and balance < 900 then
-        return 'GOLD';
-    else 
-        return 'SILVER';
-    end if;
-end //
-
-
-delimiter //
-create function experience(doj DATE)
-returns int
-deterministic
-begin
-    return TIMESTAMPDIFF(YEAR , doj, CURDATE());
-end //
-
-
-delimiter //
-create function count_borrowers(amount int)
-returns int
-deterministic
-begin
-    declare count int default 0;
-    select count(*) into count from loan 
-    where amount > 1000;
-    return count;
-end //
-
-
-delimiter //
-create function max_balance()
-returns varchar(30)
-deterministic
-begin
-    
-    return select customer_name 
-    from account natural join depositor 
-    where balance =
-    (select max(balance) from account);
-    
-end //
-
-select max_balance() as max_balance_name;
-
-
-
-DECLARE EXIT HANDLER FOR 1048
-SELECT “Trying to populate a non-null column with null value”
-
-create table test(
-    col1 varchar(20) NOT NULL,
-    col2 int
-);
-
-
-delimiter //
-create procedure test_insert(IN col1 varchar(20), IN col2 int)
-begin
-    declare exit handler for 1048
-    begin
-    select "Trying to populate a non-null column with null value"
-    as message;
-    end;
-
-    insert into test values(col1, col2);
-
-end //
-
-
-create table emp(
-    emp_id int,
-    emp_name varchar(30),
-    primary key(emp_id, emp_name)
-);

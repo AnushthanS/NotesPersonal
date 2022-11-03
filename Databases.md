@@ -1,4 +1,4 @@
-## **Databases**
+
 
 ### User 
 
@@ -26,7 +26,6 @@ Language
 Theatre id
 2d/3d
 
-link theatre database
 
 
 ### Theatre
@@ -34,14 +33,15 @@ link theatre database
 theatre id
 screen
 theatre name
-link booking status
 
   
 ### Booking status
 
-username (foreign key)
+username
 date
 time slot
+movie id
+theatre id
 
   
 ### Shows
@@ -50,7 +50,3 @@ movie id
 theatre id
 date 
 time
-
-*foreign keys*
-movie id
-theatre id
