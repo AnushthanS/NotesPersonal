@@ -572,3 +572,146 @@ create table emp(
     emp_name varchar(30),
     primary key(emp_id, emp_name)
 );
+
+
+
+select count(*) as count from (select username from users where username = ? and password = ?) as matches;
+
+
+
+
+lab 10
+
+select authorName, count(*), avg(price) 
+from author, book
+where author = author_id
+group by author;
+
+
+
+
+delimiter //
+create procedure author_price()
+begin
+select authorName, count(*), avg(price) 
+from author, book
+where author = author_id
+group by author;
+end //
+
+
+
+
+
+lab 11
+
+select course_id,sec_id,count(ID)from section natural join takes where 
+semester = 'fall'and year = 2009 group by course_id,sec_id
+
+
+
+select max(enrollment) from (select count(ID) as enrollment
+from takes where
+semester = 'fall' and year= 2009 group by course_id,sec_id) as T;
+
+select sec_id, course_id from (select sec_id,course_id, count(ID) 
+as enrollment from takes where 
+semester = 'fall' and year= 2009 group by course_id,sec_id) as T1
+ where enrollment = (select max(enrollment) from (select sec_id,course_id, count(ID) 
+as enrollment from takes where 
+semester = 'fall' and year= 2009 group by course_id,sec_id) as T2);
+
+
+insert into instructor
+    select ID, name, dept_name, 30000
+    from student
+    where tot_cred > 100;
+
+
+
+select ID, name, count(course_id) as "Number of sections"
+from instructor natural left outer join teaches 
+group by ID, name;
+
+select ID, name, (select count(*) as "Number of sections" from teaches T where T.id = I.id) from instructor;
+
+select ID, name, (select count(*) as "Number of sections" 
+from teaches T where T.id = I.id) from instructor I;
+
+
+select course_id, sec_id, ID, name as instructor_name 
+from (section natural left outer join teaches) natural left outer join instructor 
+where semester="Spring" and year= 2010;
+
+select dept_name, count(ID)
+from department natural left outer join instructor
+group by dept_name;
+
+
+
+
+select * from student natural join takes 
+union 
+select ID, name, dept_name, tot_cred, NULL, NULL, NULL, NULL, NULL from student S1 
+where not exists
+(select ID from takes T1 where T1.id = S1.id);
+
+
+select * from student natural join takes
+union 
+select ID, name, dept_name, tot_cred, NULL, NULL, NULL, NULL, NULL
+from student S1 where not exists 
+(select ID from takes T1 where T1.id = S1.id) 
+union 
+(select ID, NULL, NULL, NULL, course_id, sec_id,
+semester, year, grade from takes T1 where not exists 
+(select ID from student S1 where T1.id = S1.id));
+
+
+
+insert into bankCustomers values("10101", "Anushthan", 30000000);
+
+
+DELIMITER $$
+CREATE PROCEDURE classroom_insert(
+IN building_name VARCHAR(20),
+IN room_number varchar(7),
+IN capacity numeric
+)
+BEGIN
+DECLARE EXIT HANDLER FOR 1062
+BEGIN
+SELECT CONCAT('Duplicate key (',building_name,',',room_number,',',capacity,') occurred') AS
+message; 
+END;
+INSERT INTO classroom(building,room_number,capacity)
+VALUES(building_name,room_number,capacity);
+END $$
+call classroom_insert('Packard', '101', '500');
+
+
+
+
+
+delimiter $$
+CREATE TRIGGER asset_trigger 
+AFTER delete ON account 
+FOR EACH ROW 
+BEGIN
+    update branch set assets = assets-old.balance where branch.branch_name = old.branch_name;
+end $$
+delimiter $$
+
+CREATE TRIGGER depositor_delete 
+AFTER delete ON account 
+FOR EACH ROW 
+BEGIN
+    delete from depositor where depositor.account_number = old.account_number;
+end $$
+
+create table EmployeePosition(Emp_Id int(4), Emp_name varchar(20), Emp_position varchar(20));
+
+insert into EmployeePosition(Emp_Id, Emp_name, Emp_position)
+select id, name, assignPosition(doj) from employees;
+
+select * from EmployeePosition;

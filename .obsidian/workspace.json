@@ -4,34 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fac000aa2a5bc44a",
+        "id": "7ef391ba9fe6a551",
         "type": "tabs",
         "children": [
           {
-            "id": "88bfde8aba873f98",
+            "id": "32e0a71f8c6bbcf9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Program Flow.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "afeb29648af31dc1",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d6b87d020bc36c20",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Databases.md",
+                "file": "NotesWebDev/CSS colors and fonts.md",
                 "mode": "preview",
                 "source": false
               }
@@ -96,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases.md",
+                "file": "NotesWebDev/CSS colors and fonts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,17 +121,17 @@
     "width": 447.5,
     "collapsed": true
   },
-  "active": "d6b87d020bc36c20",
+  "active": "32e0a71f8c6bbcf9",
   "lastOpenFiles": [
-    "Program Flow.md",
     "Databases.md",
     "Movie Ticket Booking System.pdf",
-    "NotesShell/R2.md",
+    "Program Flow.md",
+    "NotesGo/N1.md",
     "NotesShell/R1.md",
-    "Marks.md",
-    "NotesWebDev/js2.md",
-    "NotesJava/NotesHarry/Notes (Harry)/1920px-Java.util.Collection_hierarchy.svg.png",
-    "NotesJava/Regex in Java 2.md",
-    "NotesJava/Inner Classes.md"
+    "NotesShell/R2.md",
+    "NotesGo/N3.md",
+    "NotesGo/FMT guide.md",
+    "NotesGo/N2.md",
+    "NotesGo/N4.md"
   ]
 }

@@ -2,12 +2,10 @@
 
 ### User 
 
-email
 password
-location
 username
-full name
-phone number
+name
+phone_number
 
 
 ### Admin
@@ -18,35 +16,34 @@ password
 
 ### Movie
 
-Movie id
-Title
-Rating
-Genre
-Language
-Theatre id
-2d/3d
-
-
+movie_id
+movie_name
+rating
+genre
+language
+theatre_id
 
 ### Theatre
 
-theatre id
+theatre_id
+location
 screen
-theatre name
+no_of_tickets
+theatre_name
 
   
 ### Booking status
 
 username
 date
-time slot
-movie id
-theatre id
+time_slot
+movie_id
+theatre_id
 
   
 ### Shows
 
-movie id
-theatre id
-date 
+movie_id
+theatre_id
+date
 time
