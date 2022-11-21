@@ -18,3 +18,4 @@
 		- give a booking to the user by adding to the user's array of bookings
 - Admin file outside all packages
 - Package for testing files
+- Shows file as a Custom Data Type to be used in Composition in the Ticket Booking file, with a custom print ticket method.

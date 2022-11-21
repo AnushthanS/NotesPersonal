@@ -6,13 +6,13 @@ password
 username
 name
 phone_number
-
+primary key(username)
 
 ### Admin
 
 username
 password
-
+primary key(username)
 
 ### Movie
 
@@ -22,6 +22,9 @@ rating
 genre
 language
 theatre_id
+foreign key (theatre_id)
+primary key (movie_id)
+
 
 ### Theatre
 
@@ -30,7 +33,7 @@ location
 screen
 no_of_tickets
 theatre_name
-
+primary key(theatre_id, screen)
   
 ### Booking status
 
@@ -47,3 +50,4 @@ movie_id
 theatre_id
 date
 time
+primary key comprising all
