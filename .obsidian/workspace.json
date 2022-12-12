@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "277b9f780721298b",
+        "id": "abf2d0ae5d983c96",
         "type": "tabs",
         "children": [
           {
-            "id": "b267c039e20b8a79",
+            "id": "a087e8a64d6cc109",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databases.md",
-                "mode": "source",
+                "file": "Marks.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databases.md",
+                "file": "Marks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,17 +121,17 @@
     "width": 447.5,
     "collapsed": true
   },
-  "active": "b267c039e20b8a79",
+  "active": "a087e8a64d6cc109",
   "lastOpenFiles": [
-    "Program Flow.md",
-    "NotesWebDev/CSS colors and fonts.md",
+    "Assignments and Topics.md",
+    "To Do.md",
     "Databases.md",
+    "Program Flow.md",
+    "Marks.md",
     "Movie Ticket Booking System.pdf",
+    "NotesWebDev/CSS colors and fonts.md",
     "NotesGo/N1.md",
     "NotesShell/R1.md",
-    "NotesShell/R2.md",
-    "NotesGo/N3.md",
-    "NotesGo/FMT guide.md",
-    "NotesGo/N2.md"
+    "NotesShell/R2.md"
   ]
 }
