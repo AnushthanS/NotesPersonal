@@ -4,30 +4,17 @@
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
-        "id": "abf2d0ae5d983c96",
+        "id": "41dbd58a1dd64057",
         "type": "tabs",
         "children": [
           {
-            "id": "a087e8a64d6cc109",
-=======
-        "id": "d911168a15c689d6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0172937b27f4b54e",
->>>>>>> 75aa9d2 (backup)
+            "id": "1b99449ad41fe8c0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "NotesWebDev/CSS colors and fonts.md",
-                "mode": "preview",
-=======
-                "file": "NotesSwift/S1.md",
+                "file": "NotesJs/N1.md",
                 "mode": "source",
->>>>>>> 75aa9d2 (backup)
                 "source": false
               }
             }
@@ -69,32 +56,13 @@
                 "sortOrder": "byCreatedTime"
               }
             }
-          },
-          {
-            "id": "c20a551e4d56bdd5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NotesWebDev/css2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "44c8b7d8c4a562b2",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 248
+    "width": 248,
+    "collapsed": true
   },
   "right": {
     "id": "91cab6bb9112715a",
@@ -110,11 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "NotesWebDev/CSS colors and fonts.md",
-=======
-                "file": "NotesSwift/S1.md",
->>>>>>> 75aa9d2 (backup)
+                "file": "NotesJs/N1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,20 +121,6 @@
     "width": 447.5,
     "collapsed": true
   },
-<<<<<<< HEAD
-  "active": "a087e8a64d6cc109",
-  "lastOpenFiles": [
-    "Marks.md",
-    "Assignments and Topics.md",
-    "To Do.md",
-    "Databases.md",
-    "Program Flow.md",
-    "Movie Ticket Booking System.pdf",
-    "NotesWebDev/CSS colors and fonts.md",
-    "NotesGo/N1.md",
-    "NotesShell/R1.md",
-    "NotesShell/R2.md"
-=======
   "left-ribbon": {
     "hiddenItems": {
       "table-editor-obsidian:Advanced Tables Toolbar": false,
@@ -182,18 +132,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "0172937b27f4b54e",
+  "active": "1b99449ad41fe8c0",
   "lastOpenFiles": [
-    "Marks.md",
-    "Strumming pattern.md",
-    "NotesWebDev/css2.md",
-    "NotesWebDev/css1.md",
-    "NotesWebDev/CSS colors and fonts.md",
-    "Temp/Screenshot 2022-12-13 at 5.08.53 PM.png",
-    "Temp/Screenshot 2022-12-13 at 5.08.49 PM.png",
-    "NotesWebDev/Attributes.md",
-    "NotesWebDev/html1.md",
-    "NotesWebDev/Entities.md"
->>>>>>> 75aa9d2 (backup)
+    "Syllabus.md",
+    "NotesJava/Regex in Java 2.md",
+    "NotesJava/Inner Classes.md",
+    "NotesJava/2 substring question.md",
+    "NotesJava/String Performance.md",
+    "NotesJava/R3.md",
+    "NotesJava/Fast IO.md",
+    "NotesJava/R5.md",
+    "NotesWebDev/Tags.md",
+    "NotesWebDev/js2.md"
   ]
 }
