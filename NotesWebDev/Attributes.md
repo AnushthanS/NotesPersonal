@@ -1,5 +1,10 @@
 > In conjunction with [[Tags]] and [[Entities]]
 
+
+```ad-note
+`id` should be avoided since it is unique for the whole html document. An `id` cannot be used again for the entire document. Use `class` instead. It can be reused and gives better functionality for css definitions.
+``` 
+
 - A common attribute used with html tag is *lang* used to set the language of the content of the web page `<html lang="en">`
 
 &nbsp
@@ -21,4 +26,3 @@
 
 ### Tag = `<a>`
 - `href` and maybe `download`. `href` can have different kind of values:
-	- ``
