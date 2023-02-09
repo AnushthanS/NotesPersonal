@@ -7,5 +7,6 @@
   "promptDelete": false,
   "legacyEditor": false,
   "communityThemeSortOrder": "releaseReverse",
-  "livePreview": true
+  "livePreview": true,
+  "alwaysUpdateLinks": true
 }
