@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "41dbd58a1dd64057",
+        "id": "10cd6c376833e7a9",
         "type": "tabs",
         "children": [
           {
-            "id": "2312df196dfdd1e1",
+            "id": "ab8aedd483381c2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NotesJs/N3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b45cfca984314837",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NotesJs/splice and slice.md",
+                "file": "temp.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -91,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NotesJs/splice and slice.md",
+                "file": "temp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,17 +132,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b45cfca984314837",
+  "active": "ab8aedd483381c2c",
   "lastOpenFiles": [
-    "NotesJs/N3.md",
-    "Untitled.md",
-    "Proj.md",
+    "temp.md",
+    "Project.md",
+    "NotesJs/jQuery.md",
     "NotesJs/splice and slice.md",
-    "NotesJs/JS All in One Notes.pdf",
+    "NotesJava/Regex Examples.md",
+    "NotesJs/N5.md",
+    "NotesJs/N6.md",
+    "NotesJava/Regex Sequence.md",
+    "NotesJava/Regex in Java 1.md",
+    "NotesJs/N4.md",
+    "NotesJs/N3.md",
     "NotesJs/N2.md",
-    "NotesJs/N1.md",
-    "Syllabus.md",
-    "NotesJava/Regex in Java 2.md",
-    "NotesJava/Inner Classes.md"
+    "NotesJs/N1.md"
   ]
 }

@@ -1,6 +1,6 @@
 ## This is mostly like Java or C formatting
 #format
-Discussed for [[N4]]
+Discussed for [[NotesGo/N4]]
 ### General 
 - %v = value in default format
 - %T = data type of value
