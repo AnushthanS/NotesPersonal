@@ -31,10 +31,10 @@
 
 - https://unbounce.com/landing-page-template/freshgoods/ a good landing page that might fit our own proposition
 - some full templates : https://colorlib.com/wp/cat/ecommerce/
+----
 
-----
-- slashjobs
-- flashjobs
-- syntechnica
-- wizlance
-----
+# Remaining things for end review
+
+- Search functionality implementation
+- Sort functionality implementation
+- Everything has to be 

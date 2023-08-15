@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "10cd6c376833e7a9",
+        "id": "e98abf376077480f",
         "type": "tabs",
         "children": [
           {
-            "id": "ab8aedd483381c2c",
+            "id": "1759f337eba53592",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "temp.md",
-                "mode": "source",
+                "file": "NotesFlutter/R1.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -56,13 +56,20 @@
                 "sortOrder": "byCreatedTime"
               }
             }
+          },
+          {
+            "id": "8641ecaad6ef649d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 248,
-    "collapsed": true
+    "width": 248
   },
   "right": {
     "id": "91cab6bb9112715a",
@@ -78,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "temp.md",
+                "file": "NotesFlutter/R1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,16 +139,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ab8aedd483381c2c",
+  "active": "1759f337eba53592",
   "lastOpenFiles": [
-    "temp.md",
+    "to watch.md",
+    "NotesRuby/R1.md",
+    "Assignments and Topics.md",
+    "Color palette.md",
+    "OB.md",
+    "Script.md",
+    "NotesWebDev/mongo.md",
     "Project.md",
+    "NotesJs/Middleware.md",
+    "NotesJs/Express.md",
+    "NotesJava/Regex Examples.md",
+    "NotesJava/Regex Sequence.md",
+    "Guide to Competitive Programming_ Learning and Improving Algorithms Through Contests ( PDFDrive ).pdf",
     "NotesJs/jQuery.md",
     "NotesJs/splice and slice.md",
-    "NotesJava/Regex Examples.md",
     "NotesJs/N5.md",
     "NotesJs/N6.md",
-    "NotesJava/Regex Sequence.md",
     "NotesJava/Regex in Java 1.md",
     "NotesJs/N4.md",
     "NotesJs/N3.md",
