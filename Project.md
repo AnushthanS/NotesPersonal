@@ -37,4 +37,17 @@
 
 - Search functionality implementation
 - Sort functionality implementation
-- Everything has to be 
+
+
+---- 
+
+# 4th Semester
+
+For first review : 
+- Animation using js - 1m
+- Ajax - 4m
+
+additional tasks : 
+- UI change
+- Dashboard bug fixes
+- Database population

@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "015009023a384b3e",
+        "id": "1cf815f398e3231f",
         "type": "tabs",
         "children": [
           {
-            "id": "951f928cc6ccddc3",
+            "id": "fbee1fb4bce35ede",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Temp.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "regex",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,13 +86,14 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Temp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -115,9 +120,18 @@
               "type": "todo",
               "state": {}
             }
+          },
+          {
+            "id": "06f971eaf1378f30",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -137,31 +151,32 @@
   },
   "active": "69c7ce3b525295e3",
   "lastOpenFiles": [
-    "DockerInfo.md",
-    "NotesBlockchain/N1.md",
+    "Temp.md",
+    "Untitled.canvas",
     "Assignments and Topics.md",
-    "Flutter Installation.md",
-    "Guide to Competitive Programming_ Learning and Improving Algorithms Through Contests ( PDFDrive ).pdf",
+    "Basic.md",
     "Color palette.md",
+    "Flutter Installation.md",
     "Project.md",
-    "OB.md",
+    "CC Demonstration.md",
+    "DockerInfo.md",
     "NLP Presentation.md",
+    "NotesJava/Regex Sequence.md",
+    "NotesJava/Regex in Java 1.md",
+    "NotesJava/Regex in Java 2.md",
+    "NotesJava/Comparator.md",
+    "Guide to Competitive Programming_ Learning and Improving Algorithms Through Contests ( PDFDrive ).pdf",
     "NotesFlutter/R1.md",
+    "NotesSwift/S1.md",
+    "NotesBlockchain/N1.md",
+    "OB.md",
     "NotesRuby/R1.md",
     "Script.md",
     "NotesWebDev/mongo.md",
     "NotesJs/Middleware.md",
     "NotesJs/Express.md",
     "NotesJava/Regex Examples.md",
-    "NotesJava/Regex Sequence.md",
     "NotesJs/jQuery.md",
-    "NotesJs/splice and slice.md",
-    "NotesJs/N5.md",
-    "NotesJs/N6.md",
-    "NotesJava/Regex in Java 1.md",
-    "NotesJs/N4.md",
-    "NotesJs/N3.md",
-    "NotesJs/N2.md",
-    "NotesJs/N1.md"
+    "NotesJs/splice and slice.md"
   ]
 }

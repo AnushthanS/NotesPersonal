@@ -40,3 +40,36 @@ https://docs.google.com/presentation/d/15hBbqccjtbNcJQWULa4z6eVovWQr32pEU4igu2vg
 - Public messages Dataset
 - IMP : Remove "not" from stop words list
 - Load the dataset -> Dataset exploration using Exploratory Data Analysis (EDA) -> Split the dataset and apply tokenization as per requirement -> Vectorization for feature extraction -> Model training -> Accuracy Check and f-measure -> Classification report
+
+---
+
+## Data cleaning steps
+
+*Most common methods:*
+- Case standardization
+- Removing Puncuatations
+- Removing numbers
+- Removing extra space
+- Removing contractions
+- Tokenization
+- **Lemmatization**
+	- tokens from this [repo](https://github.com/michmech/lemmatization-lists/tree/master)
+- **Stemming**
+- **Stop words removal**
+
+*More case specific:*
+- Standardizing Accent Characters
+
+https://www.analyticsvidhya.com/blog/2022/01/text-cleaning-methods-in-nlp/
+
+https://www.analyticsvidhya.com/blog/2022/07/step-by-step-exploratory-data-analysis-eda-using-python/
+
+---- 
+
+### Some observations from the other presentations
+
+- A presentation substitute for a report
+- Some more work on the data
+	- Data is large enough, but may need to get a more in-depth understanding of the data at hand
+	- Maybe add a bit more to the stop words list
+- Other groups have written a less optimized, step by step code in favour of a lengthier presentation
