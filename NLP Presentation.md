@@ -73,3 +73,13 @@ https://www.analyticsvidhya.com/blog/2022/07/step-by-step-exploratory-data-analy
 	- Data is large enough, but may need to get a more in-depth understanding of the data at hand
 	- Maybe add a bit more to the stop words list
 - Other groups have written a less optimized, step by step code in favour of a lengthier presentation
+----
+- POS tagging
+- Named entity recognition
+- Apply Tf-IDF vectorizer for feature extraction
+- Model traning
+- Accuracy, f-measure, similarity score
+- Using a classic Naive Bayes model for binary classification
+	- https://machinelearningmastery.com/naive-bayes-classifier-scratch-python/
+	- https://medium.com/@rangavamsi5/naïve-bayes-algorithm-implementation-from-scratch-in-python-7b2cc39268b9
+	- https://www.analyticsvidhya.com/blog/2022/03/building-naive-bayes-classifier-from-scratch-to-perform-sentiment-analysis/
