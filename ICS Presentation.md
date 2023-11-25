@@ -108,6 +108,7 @@ Efforts to rebuild trust included transparent communication, enhanced security m
 
 ----
 
+(https://medium.com/@laur.telliskivi/pentesting-basics-cookie-grabber-xss-8b672e4738b2)
 ### British Airways XSS Case Study
 
 Incident Overview:

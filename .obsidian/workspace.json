@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "858756aaa835adb3",
+        "id": "6037bbad09576e2b",
         "type": "tabs",
         "children": [
           {
-            "id": "b56f8286f6cf768b",
+            "id": "300c0ba04ede64f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248,
-    "collapsed": true
+    "width": 248
   },
   "right": {
     "id": "91cab6bb9112715a",
@@ -106,22 +105,6 @@
             }
           },
           {
-            "id": "168311754a67afd7",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "fe9c30bf9c6ecd69",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {}
-            }
-          },
-          {
             "id": "06f971eaf1378f30",
             "type": "leaf",
             "state": {
@@ -130,8 +113,25 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "092421ccd0c128d0",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "af5c8605bf4adaf1",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -149,17 +149,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "69c7ce3b525295e3",
+  "active": "300c0ba04ede64f0",
   "lastOpenFiles": [
+    "Project.md",
+    "Assignments and Topics.md",
     "NLP Presentation.md",
+    "NotesC/Dangling Pointer & Memory Leak.md",
+    "NotesC/CFP_15thapril.pdf",
+    "NotesC/CFP till now..pdf",
+    "NotesC/Comma.md",
     "ICS Presentation.md",
     "Temp.md",
     "Untitled.canvas",
-    "Assignments and Topics.md",
     "Basic.md",
     "Color palette.md",
     "Flutter Installation.md",
-    "Project.md",
     "CC Demonstration.md",
     "DockerInfo.md",
     "NotesJava/Regex Sequence.md",
@@ -176,8 +180,6 @@
     "NotesWebDev/mongo.md",
     "NotesJs/Middleware.md",
     "NotesJs/Express.md",
-    "NotesJava/Regex Examples.md",
-    "NotesJs/jQuery.md",
-    "NotesJs/splice and slice.md"
+    "NotesJava/Regex Examples.md"
   ]
 }
