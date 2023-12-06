@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6bf5269d51d878cd",
+        "id": "3e0acb1f21fee47a",
         "type": "tabs",
         "children": [
           {
-            "id": "1b99449ad41fe8c0",
+            "id": "35567221f7c2de7a",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "CollegeNotes/ICS/Module 5 and 6 reaeding assignment.pdf"
+                "file": "CollegeNotes/SE/Skills for Employability RT.pdf"
               }
             }
           }
@@ -90,7 +90,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "CollegeNotes/ICS/Module 5 and 6 reaeding assignment.pdf",
+            "file": "CollegeNotes/SE/Skills for Employability RT.pdf",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -123,11 +123,15 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "1b99449ad41fe8c0",
+  "active": "ed47d9e19225a1e3",
   "lastOpenFiles": [
+    "CollegeNotes/SE/S20210010027_SE_A01.pdf",
+    "CollegeNotes/SE/Skills for Employability RT.pdf",
+    "CollegeNotes/SE/MBTI.png",
+    "Color palette.md",
+    "CollegeNotes/ICS/Module 5 and 6 reaeding assignment.pdf",
     "CollegeNotes/NLP/NLP-12.pdf",
     "CollegeNotes/ICS/IDS-29-47.pdf",
-    "CollegeNotes/ICS/Module 5 and 6 reaeding assignment.pdf",
     "NLP Presentation.md",
     "Syllabus.md",
     "NotesJava/Regex in Java 2.md",
