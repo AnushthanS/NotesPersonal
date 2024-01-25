@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6037bbad09576e2b",
+        "id": "b2be51a643a4c166",
         "type": "tabs",
         "children": [
           {
-            "id": "300c0ba04ede64f0",
+            "id": "5c10f6ece25df932",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ICS Presentation.md",
-                "mode": "preview",
+                "file": "BTP.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248
+    "width": 200
   },
   "right": {
     "id": "91cab6bb9112715a",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ICS Presentation.md",
+                "file": "BTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -149,20 +151,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "300c0ba04ede64f0",
+  "active": "5c10f6ece25df932",
   "lastOpenFiles": [
-    "Project.md",
     "Assignments and Topics.md",
+    "Color palette.md",
+    "Project.md",
+    "BTP.md",
+    "UIResources.md",
+    "Portfolio.md",
+    "Temp.md",
+    "Next.md",
+    "Guide to Competitive Programming_ Learning and Improving Algorithms Through Contests ( PDFDrive ).pdf",
+    "ICS Presentation.md",
     "NLP Presentation.md",
     "NotesC/Dangling Pointer & Memory Leak.md",
     "NotesC/CFP_15thapril.pdf",
     "NotesC/CFP till now..pdf",
     "NotesC/Comma.md",
-    "ICS Presentation.md",
-    "Temp.md",
     "Untitled.canvas",
     "Basic.md",
-    "Color palette.md",
     "Flutter Installation.md",
     "CC Demonstration.md",
     "DockerInfo.md",
@@ -170,16 +177,11 @@
     "NotesJava/Regex in Java 1.md",
     "NotesJava/Regex in Java 2.md",
     "NotesJava/Comparator.md",
-    "Guide to Competitive Programming_ Learning and Improving Algorithms Through Contests ( PDFDrive ).pdf",
     "NotesFlutter/R1.md",
     "NotesSwift/S1.md",
     "NotesBlockchain/N1.md",
     "OB.md",
     "NotesRuby/R1.md",
-    "Script.md",
-    "NotesWebDev/mongo.md",
-    "NotesJs/Middleware.md",
-    "NotesJs/Express.md",
-    "NotesJava/Regex Examples.md"
+    "Script.md"
   ]
 }

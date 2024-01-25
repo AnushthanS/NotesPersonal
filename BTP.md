@@ -1,0 +1,7 @@
+- https://www.kaggle.com/code/kanncaa1/deep-learning-tutorial-for-beginners
+- https://www.kaggle.com/code/markwijkhuizen/gislr-tf-data-processing-transformer-training
+- https://www.kaggle.com/code/lonnieqin/isolated-sign-language-recognition-with-dnn
+- https://www.kaggle.com/competitions/asl-signs/discussion/406306
+- https://www.kaggle.com/code/markwijkhuizen/aslfr-transformer-training-inference
+- https://www.kaggle.com/competitions/asl-fingerspelling/discussion/434485
+- https://www.kaggle.com/competitions/asl-fingerspelling/discussion/409438

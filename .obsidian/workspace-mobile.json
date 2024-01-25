@@ -11,9 +11,11 @@
             "id": "35567221f7c2de7a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "CollegeNotes/SE/Skills for Employability RT.pdf"
+                "file": "UIResources.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -90,7 +92,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "CollegeNotes/SE/Skills for Employability RT.pdf",
+            "file": "UIResources.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -123,12 +125,18 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "ed47d9e19225a1e3",
+  "active": "35567221f7c2de7a",
   "lastOpenFiles": [
-    "CollegeNotes/SE/S20210010027_SE_A01.pdf",
-    "CollegeNotes/SE/Skills for Employability RT.pdf",
-    "CollegeNotes/SE/MBTI.png",
+    "Temp.md",
+    "NotesRuby/R1.md",
+    "NotesGo/N3.md",
+    "NotesGo/N2.md",
+    "NotesJava/GUI/N1.md",
     "Color palette.md",
+    "NotesRust/N1.md",
+    "CollegeNotes/SE/Skills for Employability RT.pdf",
+    "CollegeNotes/SE/S20210010027_SE_A01.pdf",
+    "CollegeNotes/SE/MBTI.png",
     "CollegeNotes/ICS/Module 5 and 6 reaeding assignment.pdf",
     "CollegeNotes/NLP/NLP-12.pdf",
     "CollegeNotes/ICS/IDS-29-47.pdf",

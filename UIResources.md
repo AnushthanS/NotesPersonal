@@ -1,0 +1,33 @@
+- pollypizza for low poly 3d models
+- https://www.youtube.com/watch?app=desktop&v=5naMFeWTBeY
+- whatamesh for getting tailwind meshes (smooth)
+- awwwards and behance for ui inspirations
+- dark.design for dark mode UIs
+- shadergradient.co for noisy-shaded gradients
+- mingcute and flowbite icons
+- https://feathericons.com
+- lottielab for simple animations
+- lenis scroll; locomotive v5
+- for animations on yt
+	- olivier larose
+	- frontend fyi
+	- diego cabrera
+	- tom is loading
+	- fireship mini projects
+	- coding in public
+
+- https://youtu.be/WTchW0LdWL0?feature=shared or https://youtu.be/vIBKSmWAdIA?feature=shared
+	- tailwind dark mode correct way
+- https://www.reddit.com/r/webdev/comments/m468bc/ive_compiled_a_list_of_20_design_resources_for/
+- https://www.youtube.com/playlist?list=PLkQj0oVF_lCwq-LfNBDUAV-e8_uyw_xpP
+	- playlist with a bunch of framer motion animations
+- https://docs.pmnd.rs/react-three-fiber/getting-started/introduction
+- https://github.com/pmndrs/drei
+- https://github.com/pmndrs/maath
+- https://codepen.io/androbiotic/pen/xxVPPwO
+	- cat preloader
+
+### Animation Videos
+- https://www.youtube.com/watch?v=hjbxaYTMhy0&pp=ygUeZnJhbWVyIG1vdGlvbiBzY3JvbGwgYW5pbWF0aW9u
+- https://www.youtube.com/watch?v=fmgh4QbpK_w&pp=ygUeZnJhbWVyIG1vdGlvbiBzY3JvbGwgYW5pbWF0aW9u
+- https://www.youtube.com/watch?v=4ehYkfh7P-I&pp=ygUeZnJhbWVyIG1vdGlvbiBzY3JvbGwgYW5pbWF0aW9u
