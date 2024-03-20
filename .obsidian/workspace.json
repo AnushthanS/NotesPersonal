@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "b2be51a643a4c166",
+        "id": "0c60257d42158aab",
         "type": "tabs",
         "children": [
           {
-            "id": "5c10f6ece25df932",
+            "id": "b65014a77f66f79d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BTP.md",
+                "file": "ML topics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bb1a719c1f394c9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TODO.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 255.50260543823242
   },
   "right": {
     "id": "91cab6bb9112715a",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BTP.md",
+                "file": "TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,37 +164,48 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5c10f6ece25df932",
+  "active": "bb1a719c1f394c9f",
   "lastOpenFiles": [
+    "ML topics.md",
+    "TODO.md",
+    "Resources.md",
+    "IS Demonstration.md",
+    "IASE Assignments.md",
+    "Temp.md",
+    "BCI Assignment.md",
+    "BCI Project.md",
+    "BTP.md",
+    "G1_04.pdf",
+    "Portfolio.md",
+    "UIResources.md",
     "Assignments and Topics.md",
     "Color palette.md",
     "Project.md",
-    "BTP.md",
-    "UIResources.md",
-    "Portfolio.md",
-    "Temp.md",
     "Next.md",
+    "Untitled",
+    "ML_Paper.pdf",
     "Guide to Competitive Programming_ Learning and Improving Algorithms Through Contests ( PDFDrive ).pdf",
+    "weyes-2.png",
+    "ichiko-2.png",
+    "eternal-sunshine.png",
+    "Untitled.canvas",
+    "cure.png",
+    "5 centimeters per second.png",
+    "Fallen Angels.png",
+    "KILL BILL VOLUME 1.png",
+    "Effective_Recognition_System_of_American_Sign_Language_Alphabets_using_Machine_Learning_Classifiers_ANN_and_CNN.pdf",
     "ICS Presentation.md",
     "NLP Presentation.md",
     "NotesC/Dangling Pointer & Memory Leak.md",
     "NotesC/CFP_15thapril.pdf",
     "NotesC/CFP till now..pdf",
     "NotesC/Comma.md",
-    "Untitled.canvas",
     "Basic.md",
     "Flutter Installation.md",
     "CC Demonstration.md",
     "DockerInfo.md",
     "NotesJava/Regex Sequence.md",
     "NotesJava/Regex in Java 1.md",
-    "NotesJava/Regex in Java 2.md",
-    "NotesJava/Comparator.md",
-    "NotesFlutter/R1.md",
-    "NotesSwift/S1.md",
-    "NotesBlockchain/N1.md",
-    "OB.md",
-    "NotesRuby/R1.md",
-    "Script.md"
+    "NotesJava/Regex in Java 2.md"
   ]
 }
