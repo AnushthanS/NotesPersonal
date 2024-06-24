@@ -122,3 +122,92 @@
 ### Deliverables for next review:
 1. **Incorporate Step 2:** Implement the features outlined in Paper2, focusing on static ISL translation using transformers. 
 2. **Parallel Data Collection:** Simultaneously work on gathering our own data for ISL. This includes capturing videos and motion data using the Kinect sensor.
+----
+
+# Review 2
+
+### Summary
+- previously proposed pipeline, with minor changes only
+- what we did after that
+- what do we want to accomplish before the next review
+
+### 1st slide/recap:
+previously completed work page
+and deliverables mentioned for the next review page
+
+### 2nd slide/work done in short:
+- Got a static ISL dataset, alphabets and numbers only
+	- Applied SVM and transfer learning on it, for learning purposes
+
+- Started data collection
+	- using ultraleap hand tracking device
+	- contributed in multi-modal data collection: ultraleap hand tracking + xbox kinect
+
+- Tried some approaches to work on word level translation
+	- publicly available video dataset and our own hand tracking data
+
+### 3rd slide:
+## Fingerspell level translation
+- dataset of alphabets and digits, 36 folders, provided to us
+- 256x256 sized images, each folder having the primary image with thousands of augmentations
+- Applied CNN on this dataset
+	- first time applying cnn/working with images
+	- got around 81% accuracy
+- Then tried transfer learning
+	- use of pre-trained model, like MobileNet, to get better results
+	- got around 97% accuracy
+
+### 4th and 5th slides:
+## Hand tracking data collection
+- participated in collection of the sign language dataset being gathered by the vision language team
+- used ultraleap 3Di hand tracking device to collect word level data
+- ultraleap provides leapc python api for collecting raw hand tracking data
+- for any recording, we record by milliseconds, and output is in the form of a csv
+- each row of the csv has 431 features
+- features are more or less coordinate values
+- so far we have 100 words, and gathered data with 50 participants
+
+### 6th and 7th slides:
+## Word level translation
+- WLASL dataset, by Australian National University
+	- 68,000 videos of 20,800 ASL glosses
+	- gathered across 20 different websites
+- Worked on a subset of this dataset of 100 glosses
+- Used 2 approaches
+	- Holistic visual appearance based approach
+		- 3D CN
+	- 2D human pose based approach
+		- Temporal graph CN
+- Holistic approach accuracy around 89%
+- Pose based approach accuracy around 87%
+
+
+## Ongoing work
+- Actually trying to use our hand tracking data
+	- led to us understanding about the features and the structure of data collected
+- each row of the csv has 431 features
+- features are more or less coordinate values
+- so far we have 100 words, and gathered data with 50 participants
+	- applied LSTM based CNN on it, but very low accuracy
+
+## Deliverables for next review
+- Collection of more data, enough to train models on it
+- Implementing pre-processing techniques specific to language translation
+- more work on pose estimation side
+----
+## Some references/resources
+- https://www.youtube.com/@AmitMoryossef
+- https://www.kaggle.com/code/kanncaa1/deep-learning-tutorial-for-beginners
+- https://www.kaggle.com/code/markwijkhuizen/gislr-tf-data-processing-transformer-training
+- https://www.kaggle.com/code/lonnieqin/isolated-sign-language-recognition-with-dnn
+- https://www.kaggle.com/competitions/asl-signs/discussion/406306
+- https://www.kaggle.com/code/markwijkhuizen/aslfr-transformer-training-inference
+- https://www.kaggle.com/competitions/asl-fingerspelling/discussion/434485
+- https://www.kaggle.com/competitions/asl-fingerspelling/discussion/409438
+- https://www.youtube.com/@Siddhardhan/playlists
+- https://youtube.com/playlist?list=PLblh5JKOoLUIxGDQs4LFFD--41Vzf-ME1&feature=shared
+- Cool NN explanation https://www.youtube.com/watch?v=CqOfi41LfDw
+----
+- https://paperswithcode.com/task/sign-language-translation
+----
+  
