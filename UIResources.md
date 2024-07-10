@@ -31,3 +31,7 @@
 - https://www.youtube.com/watch?v=hjbxaYTMhy0&pp=ygUeZnJhbWVyIG1vdGlvbiBzY3JvbGwgYW5pbWF0aW9u
 - https://www.youtube.com/watch?v=fmgh4QbpK_w&pp=ygUeZnJhbWVyIG1vdGlvbiBzY3JvbGwgYW5pbWF0aW9u
 - https://www.youtube.com/watch?v=4ehYkfh7P-I&pp=ygUeZnJhbWVyIG1vdGlvbiBzY3JvbGwgYW5pbWF0aW9u
+
+### Components
+- shadcn/ui
+- aceternity ui
