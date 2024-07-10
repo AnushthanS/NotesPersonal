@@ -4,6 +4,7 @@ bci C 3 cred
 is B 3 cred
 dc C 3 cred
 iae D 2 cred
-say btp C 4 cred
+btp B 4 cred
 
-makes 8.56 total cgpa
+makes 8.6 total cgpa
+

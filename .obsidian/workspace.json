@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b8d4a5835eef2485",
+        "id": "0f5a77a3208597d0",
         "type": "tabs",
         "children": [
           {
-            "id": "bd32bec4a4290c30",
+            "id": "93a58b2f8e36ab38",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Temp.md",
-                "mode": "preview",
+                "file": "ModelSteps.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Temp.md",
+                "file": "ModelSteps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,29 +151,31 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bd32bec4a4290c30",
+  "active": "93a58b2f8e36ab38",
   "lastOpenFiles": [
-    "Resources.md",
-    "TelemetryAI.md",
-    "BTP.md",
-    "TODO.md",
-    "Color palette.md",
+    "ModelSteps.md",
+    "Guide to Competitive Programming_ Learning and Improving Algorithms Through Contests ( PDFDrive ).pdf",
     "Assignments and Topics.md",
-    "Next.md",
+    "ML_Paper.pdf",
     "UIResources.md",
     "Portfolio.md",
     "ML topics.md",
     "IS Demonstration.md",
-    "DC presentation.md",
-    "Project.md",
-    "ML_Paper.pdf",
+    "Next.md",
     "IASE Assignments.md",
     "BCI Assignment.md",
+    "BTP.md",
+    "Resources.md",
+    "TODO.md",
+    "Resume.md",
     "Temp.md",
+    "TelemetryAI.md",
+    "Color palette.md",
+    "DC presentation.md",
+    "Project.md",
     "BCI Project.md",
     "G1_04.pdf",
     "Untitled",
-    "Guide to Competitive Programming_ Learning and Improving Algorithms Through Contests ( PDFDrive ).pdf",
     "weyes-2.png",
     "ichiko-2.png",
     "eternal-sunshine.png",
@@ -191,8 +193,6 @@
     "NotesC/Comma.md",
     "Basic.md",
     "Flutter Installation.md",
-    "CC Demonstration.md",
-    "DockerInfo.md",
-    "NotesJava/Regex Sequence.md"
+    "CC Demonstration.md"
   ]
 }
